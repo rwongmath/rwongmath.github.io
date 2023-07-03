@@ -67,10 +67,6 @@ author:
     - label: "Student FAQ"
       icon: "fas fa-fw fa-comments"
       url: "/StudentFAQ/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-
 
 footer:
   links:
