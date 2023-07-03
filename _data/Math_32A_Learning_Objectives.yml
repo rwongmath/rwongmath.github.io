@@ -1,0 +1,53 @@
+- number: MV1
+  textbook: 13.1-13.4
+  lectures: 1-5
+  name: Vector operations
+  description: Compute and interpret dot products, cross products, the projection of a one vector onto another vector, and volume.
+
+- number: MV2
+  textbook: 13.5-13.6
+  lectures: 6-7
+  name: Planes and surfaces
+  description: Determine the equations of lines and  planes in space; recognize the standard quadric surfaces. Draw graphs of planes, cylinders, and quadric surfaces.
+  
+- number: MV3
+  textbook: 14.1-14.3
+  lectures: 8-9
+  name: Calculus of vector-valued functions
+  description: Compute and interpret derivatives of vector-valued functions; Compute tangent vectors to parametric curves; determine velocity, speed, and acceleration.
+
+- number: MV4
+  textbook: 14.3-14.5
+  lectures: 10-13
+  name: Arclength and curvature
+  description: Compute the arclength of a curve. Compute and geometrically interpret the unit tangent, unit normal vector, and curvature for a curve.
+
+- number: MV5
+  textbook: 15.1-15.2
+  lectures: 13-16
+  name: Multivariable functions
+  description: Draw level curves and surfaces of multivariable functions. Compute limits of multivariable functions; determine if multivariable functions are continuous.
+
+- number: MV6
+  textbook: 15.3, 15.5-15.6
+  lectures: 16-18
+  name: Partial derivatives and directional derivatives
+  description: Compute and geometrically interpret partial derivatives, directional derivatives, and the gradient.  Compute derivatives using various chain rules.
+
+- number: MV7
+  textbook: 15.5, 15.7
+  lectures: 19-21
+  name: Local optimization
+  description: Compute and geometrically interpret the gradient.   Interpret level curves of multivariable functions. Find and classify local extrema of a multivariable function.
+
+- number: MV8
+  textbook: 15.8
+  lectures: 22-25
+  name: Constrained optimization
+  description: Use the method of Lagrange multipliers to find local minima and local maxima of functions subject to constraints. Find and classify global extrema on compact domains.
+
+- number: MV9
+  textbook: 15.4
+  lectures: 25-28
+  name: Linear approximation and the multivariable derivative
+  description: Find equations for tangent planes to surfaces at a given point. Compute linear approximations of a multivariable function at a given point. Determine if a multivariable function is differentiable.  Compute and use the Jacobian matrix.

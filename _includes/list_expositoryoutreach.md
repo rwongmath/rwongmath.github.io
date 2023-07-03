@@ -1,0 +1,8 @@
+0. [Journeys Through Mathematics](https://docs.google.com/presentation/d/e/2PACX-1vR_QD9ibmNaOE6qJkCviNMhybobr0qrlKLswVMw2KjcCLNExT9rFLErH8dJvUPkuG57B-_eI_Kdf1dw/pub?start=false&loop=false&delayms=60000).  I gave a talk in the Speaker Series for the Undergraduate Math Council at UCLA in Fall 2022.
+0. [What's it like being a mathematician?](https://docs.google.com/presentation/d/e/2PACX-1vTTbViNTUV0VfEICYr4IYXmzuXvX77yVS_EqGt6MA0ovSg7RJvrdI-P6LvEsm_G8TSnyGT3C9wFq8wU/pub?start=false&loop=false&delayms=60000) ([pdf version here](/assets/slides/Whats_it_like_being_a_mathematician_.pdf)). I gave a talk for Connected Research at UCLA in Winter 2022.
+0. [What is Algebraic Topology?](/assets/slides/What_is_Algebraic_Topology_Rose_Hulman.pdf) I gave a talk at Rose-Hulman in Spring 2021.
+0. [LaTeX Workshop: CVs, Cover Letters, and SOPs](https://docs.google.com/presentation/d/e/2PACX-1vSuLS80J7JhtZR7dWcBajMsTCXla0otfIo09SR7epEWisQ1LWV9Je-ZCXbf2OE1NnmigqZYc73ywvAL/pub?start=false&loop=false&delayms=60000) ([pdf version here](/assets/slides/LaTeX_Workshop_CVs.pdf)). I gave a talk for MoCAT in Fall 2020.
+0. [An Elementary Introduction to Picard Groups](/assets/slides/Invertible_Objects__An_Elementary_Introduction_to_Picard_Groups.pdf). I gave an introductory talk for the UT Austin Math Club in Spring 2020.
+0. REU / Summer Opportunities Panelist for the UT Austin Math Club in Spring 2018. 
+0. [An Overview of Algebraic Topology](/assets/slides/IntroAlgebraicTopologyMathClub.pdf). I gave an introductory talk for the UT Austin Math Club in Spring 2017.
+{: reversed="reversed"}

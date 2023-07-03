@@ -1,0 +1,41 @@
+- number: MV1
+  textbook: 16.1-16.2
+  lectures: 1-5
+  name: Integration over regions in $\mathbb{R}^2$ and $\mathbb{R}^3$
+  description: Set up and evaluate integrals of multivariable functions over regions in the plane (double integrals) and over regions in space (triple integrals) using iterated integrals.
+
+- number: MV2
+  textbook: 12.3, 13.7, 16.4
+  lectures: 6-7
+  name: Integration in polar, cylindrical, and spherical coordinates
+  description: Use the polar coordinate system to set up and evaluate double integrals. Use cylindrical and spherical coordinate systems to set up and evaluate triple integrals.
+
+- number: MV3
+  textbook: 16.6
+  lectures: 8-9
+  name: Change of variables
+  description: Set up and use the change of variables formula to evaluate double and triple integrals. Compute and geometrically interpret the Jacobian.
+
+- number: MV4
+  textbook: 17.1
+  lectures: 10-13
+  name: Vector fields
+  description: Sketch and visualize vector fields.  Evaluate and interpret the physical meaning of the curl and divergence of a vector field. Determine whether or not a vector field is conservative.
+
+- number: MV5
+  textbook: 17.2-17.3
+  lectures: 13-16
+  name: Line integrals
+  description: Calculate line integrals of scalar functions. Calculate line integrals of vector fields.  Use the line integral to calculate work. Given a conservative vector field, find an associated potential function. Use the fundamental theorem of line integrals to evaluate the line integral of a conservative vector field.
+
+- number: MV6
+  textbook: 17.4-17.5
+  lectures: 17-19
+  name: Parametrized surfaces and surface integrals
+  description: Use vector parametrization of a surface to find the tangent plane to the surface at a point.  Use vector parametrization to compute surface area and other surface integrals.
+
+- number: MV7
+  textbook: 18.1-18.3
+  lectures: 20-26
+  name: Green's Theorem, Stokes' Theorem, and the Divergence Theorem
+  description: Geometrically interpret Green’s Theorem, Stokes’ Theorem, and the Divergence Theorem.  Identify the appropriate theorem to use in order compute a particular line integral  or surface integral of a vector field.

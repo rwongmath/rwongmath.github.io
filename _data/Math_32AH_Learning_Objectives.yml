@@ -1,0 +1,41 @@
+- number: MV1
+  textbook: 
+  lectures: 1-3
+  name: $\mathbb{R}^n$ as a vector space
+  description: Geometrically interpret and reason with vector space axioms.  Prove that sets are vector spaces or subspaces.  Determine if a set of vectors are linearly independent, or a basis.  Calculate coordinate vectors. 
+
+- number: MV2
+  textbook: 
+  lectures: 3-5
+  name: Linear maps and matrices
+  description: Determine if a function from $\mathbb{R}^n \to \mathbb{R}^m$ is linear.  Determine the standard matrix associated to a linear map. Add and multiply matrices. Verify that a linear map is invertible. Compute determinants of $2\times2$ and $3\times3$ matrices.
+
+- number: MV3
+  textbook: 
+  lectures: 6-9
+  name: Vector operations in $\mathbb{R}^n$
+  description: Compute and interpret dot products, the projection of a one vector onto another vector, and the angle between two vectors.  State and use the Cauchy-Schwarz and triangle inequalities. Determine the equations of lines and  planes in space. Compute cross products. Compute the volume of a parallelpiped.
+
+- number: MV4
+  textbook: 
+  lectures: 10-15
+  name: Analysis in $\mathbb{R}^n$
+  description: Sketch and geometrically interpret vector-valued and multivariable functions. Compute limits of sequences, limits of multivariable functions; determine if multivariable functions are continuous.
+
+- number: MV5
+  textbook: 
+  lectures: 16-19
+  name: The multivariable derivative
+  description: Geometrically interpret the derivative of a multivariable function. Compute and use partial derivatives and the Jacobian matrix.  Find equations for tangent planes to surfaces and linear approximations of functions at a given point. State and use the chain rule for derivatives.
+
+- number: MV6
+  textbook: 
+  lectures: 20-22
+  name: Local optimization
+  description: Compute directional derivatives and the gradient.  Interpret level curves of multivariable functions. Find and classify local extrema of a multivariable function.
+
+- number: MV7
+  textbook: 
+  lectures: 23-25
+  name: Constrained optimization
+  description: Determine if subsets of $\mathbb{R}^n$ are open, closed, bounded, or compact.  Use the method of Lagrange multipliers to find local minima and local maxima of functions subject to constraints. Find and classify global extrema on compact domains. Compute and use the Hessian matrix. 

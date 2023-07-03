@@ -1,0 +1,19 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+.frontpageprofile div {
+  width:80vw;
+  height:80vh;
+  background:yellow;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+}
+
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials

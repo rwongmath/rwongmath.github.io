@@ -13,25 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Richard Wong
+# email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  Assistant Adjunct Professor in Mathematics at UCLA.
+# twitter_username: username
+github_username: rwongmath
+repository: "rwongmath/rwongmath.github.io"
 minimal_mistakes_skin: default
 search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -58,34 +57,37 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Richard Wong"
+  avatar : "/assets/images/me2020avatar.png"
+  bio    : "Assistant Adjunct Professor in [Mathematics](https://ww3.math.ucla.edu/) at [UCLA](https://www.ucla.edu/)."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "News"
+      icon: "fas fa-fw fa-newspaper"
+      url: "/posts/"
+    - label: "Student FAQ"
+      icon: "fas fa-fw fa-comments"
+      url: "/StudentFAQ/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "UCLA"
+      icon: "fas fa-fw fa-paw"
+      url: "https://www.ucla.edu/"
+    - label: "Department of Mathematics"
+      icon: "fas fa-fw fa-book"
+      url: "https://ww3.math.ucla.edu/"
+
+  
+collections:
+  courses_taught:
+      output: true 
+      permalink: /teaching/:name
+      
+collections_dir: my_collections
 
 defaults:
   # _posts
@@ -93,23 +95,32 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: splash
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      show_date: false
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
-      layout: single
+      layout: splash
       author_profile: true
-
+  # _course_taught
+  - scope:
+      path: ""
+      type: courses_taught
+    values:
+      layout: single
+      author_profile: true    
+      
 category_archive:
   type: liquid
   path: /categories/
+  
 tag_archive:
   type: liquid
   path: /tags/
+  
+excerpt_separator: 
+  <!--end_excerpt--> 
+  

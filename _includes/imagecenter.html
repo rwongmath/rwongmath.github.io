@@ -1,0 +1,12 @@
+<div style="clear: both;">
+  <div id="center">
+    <img src="{{ include.image_path }}" alt="{{ include.alt_text }}" width="{{ include.width }}">
+  </div>
+</div>
+  {%- if include.caption -%}
+  <div id="center"> 
+    <figcaption>
+      {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
+    </figcaption>
+  </div>
+  {%- endif -%}

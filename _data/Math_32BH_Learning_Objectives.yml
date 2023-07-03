@@ -1,0 +1,41 @@
+- number: MV1
+  textbook: 
+  lectures: 1-4
+  name: Integration over regions in $\mathbb{R}^n$
+  description: Use Darboux sums to define and estimate integrals. Set up and evaluate integrals of continuous multivariable functions over regions in $\mathbb{R}^n$ using iterated integrals.  Use Fubini's theorem to evaluate integrals.  Use integrals in applications to physics and real-world scenarios. 
+
+- number: MV2
+  textbook: 
+  lectures: 5-6
+  name: Integrability
+  description: Explore the definition of the multivariable integral.  Determine whether or not a function is integrable.  Generate examples of integrable, non-continuous functions.
+
+- number: MV3
+  textbook: 
+  lectures: 7-9
+  name: Change of variables
+  description: Use the polar, cylindrical, and spherical coordinate systems to set up and evaluate iterated integrals. Set up and use the change of variables formula to evaluate double and triple integrals. Compute and geometrically interpret the Jacobian.
+
+- number: MV4
+  textbook: 
+  lectures: 10-12
+  name: Arclength and Surface Integrals
+  description: Parametrize curves in $\mathbb{R}^n$ and surfaces in $\mathbb{R}^3$.  Calculate line integrals of scalar functions (including arclength). Use the parametrization of a surface to find the tangent plane to the surface.  Compute surface integrals of scalar functions (including surface area).
+
+- number: MV5
+  textbook: 
+  lectures: 13-18
+  name: Manifolds in $\mathbb{R}^n$
+  description: Understand how the definition of manifold in $\mathbb{R}^n$ generalizes curves and surfaces. Determine if a subset of $\mathbb{R}^n$ is a manifold.  Use the parametrization of a manifold to integrate scalar functions over manifolds.
+
+- number: MV6
+  textbook: 
+  lectures: 19-22
+  name: Vector fields; Flow and Flux integrals
+  description: Sketch and visualize vector fields.  Evaluate and interpret the physical meaning of the curl and divergence of a vector field. Determine whether or not a vector field is conservative. Given a conservative vector field, find an associated potential function. Calculate line integrals of vector fields. Use the fundamental theorem of line integrals to evaluate the line integral of a conservative vector field. Calculate flux integrals of vector fields over curves and surfaces.
+
+- number: MV7
+  textbook: 
+  lectures: 23-25
+  name: Green's Theorem, Stokes' Theorem, and the Divergence Theorem
+  description: Geometrically interpret Green’s Theorem, Stokes’ Theorem, and the Divergence Theorem.  Identify the appropriate theorem to use in order compute a particular line integral or surface integral of a vector field.

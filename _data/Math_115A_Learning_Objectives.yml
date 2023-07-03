@@ -1,0 +1,41 @@
+- number: LA1
+  textbook: 1.A
+  lectures: 1-3
+  name: The language of mathematics
+  description: Describe and identify sets.  Describe and identify functions between sets. Construct mathematical proofs using common techniques (direct proof; contrapositive; contradiction, etc.). Generalize the properties of $\mathbb{R}$ to the definition of a field. Identify if a set (with a given addition and multiplication) is a field.
+
+- number: LA2
+  textbook: 1.B-2.C
+  lectures: 4-9
+  name: Vector spaces
+  description: Generalize the properties of $\mathbb{R}^n$ to the definition of a vector space over a field.  Reason with vector space axioms.  Prove that collections are vector spaces or subspaces.  Determine if a set of vectors are linearly independent, or a basis.  Calculate coordinate vectors.
+
+- number: LA3
+  textbook: 3.A-3.D, 10.A
+  lectures: 10-15
+  name: Linear maps and matrices
+  description: Determine if a function between vector spaces is linear.  Determine whether a linear map is surjective, injective, or invertible.  Given a basis, determine the standard matrix associated to a linear map. 
+
+- number: LA4
+  textbook: 10.B, 5.A-5.C
+  lectures: 16-18
+  name: Eigenvalues and Eigenvectors
+  description: Compute determinants.  Compute eigenvectors and eigenvalues for a given matrix and relate these to an invariant subspace.
+
+- number: LA5
+  textbook: 10.A-5.C
+  lectures: 19-20
+  name: Diagonalizability
+  description: Determine when a matrix is diagonalizable.
+
+- number: LA6
+  textbook: 6.A-6.B
+  lectures: 21-23
+  name: Inner products
+  description: Generalize the dot product in $\mathbb{R}^n$ to inner products.  Prove properties of abstract inner product spaces.
+
+- number: LA7
+  textbook: 7.A, 9.B
+  lectures: 24-27
+  name: Normal and Self-adjoint Operators
+  description: Relate the fact that an operator is self-adjoint or normal to facts about the operators’ eigenvectors.

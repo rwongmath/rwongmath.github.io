@@ -1,0 +1,12 @@
+0. [The Periodicity Theorem, Part I](/assets/slides/HHR_Periodicity_Theorem.pdf). I gave a talk on Section 9.1 of the Hill-Hopkins-Ravenel paper "On the non-existence of elements of Kervaire invariant one" for the [eCHT Kervaire Invariant One Reading Seminar](https://s.wayne.edu/echt/echt-reading-seminars/echt-kervaire-invariant-one-reading-seminar/) in Fall 2020.
+0. [Picard Groups of the Stable Module Category for Quaternion Groups](/assets/slides/Picard_Quaternion_Research_Talk.pdf). I gave this research talk at many places.
+	* I gave a short research statement for the [electronic Algebraic Topology Employment Network](https://s.wayne.edu/echt/electronic-algebraic-topology-employment-network/) online in Fall 2020. [Video available here](https://youtu.be/zVvD7N9wimg).
+0. I co-taught the Summer Minicourse "Spectral Sequence Training Montage", with [Arun Debray](https://www.math.purdue.edu/~adebray/). I ran problem sessions, and gave two and a half talks on:
+	* [The Serre Spectral Sequence](/assets/slides/Spectral_Sequences_Training_Montage_Day_1.pdf)
+	* [The Homotopy Fixed-Point Spectral Sequence](/assets/slides/Spectral_Sequences_Training_Montage_Day_2.pdf)
+	* [The Tate Spectral Sequence](/assets/slides/Spectral_Sequences_Training_Montage_Day_4.pdf)
+0. [Picard Groups of Stable Module Categories](/assets/slides/Picard_Groups_of_Stable_Module_Categories.pdf). I gave this talk for the GROOT Summer Seminar online in Summer 2020. [Video available here](https://youtu.be/CSRp8q2dvjE).
+0. [Applications of Group Cohomology to 3-manifolds](/assets/slides/Applications_of_Group_Cohomology_to_3_Manifolds.pdf). I gave this talk for the junior topology seminar at UT Austin in Spring 2020.
+0. [The nilpotency of elements of the stable homotopy groups of spheres](/assets/slides/NishidaNilpotenceTalk.pdf). I gave a talk on Nishida's paper of the same title for the [eCHT Kan Seminar](https://s.wayne.edu/isaksen/echt/kan-seminar/) in Fall 2019.
+0. [Algebraic Methods for Computing Picard Groups](/assets/slides/YTM_Picard_Group_Talk.pdf). I gave this expository talk at the Graduate Student Topology & Geometry Conference at UIUC in March 2019, as well as the YTM at EPFL in July 2019.
+{: reversed="reversed"}

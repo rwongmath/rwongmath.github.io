@@ -1,0 +1,4 @@
+0. [Building Better Teachers](https://docs.google.com/presentation/d/e/2PACX-1vRpvSMvJo7B8LRcF8mPTjgv4zewFFnnytwXiGd9J9ybfxah5nYCxdOt8racLIT9k4yj0xoWMLT-Ks3h/pub?start=false&loop=false&delayms=3000) ([pdf version here](/assets/slides/Building_Better_Teachers.pdf)). I gave a talk on [using role-play in M371E](https://vimeo.com/401440873) for the 2020 FIC Graduate Teaching Showcase at UT Austin. 
+0. [Teaching Inclusively and Equitably Online](https://docs.google.com/presentation/d/e/2PACX-1vR-ABl3ucJJwnUabB4p9kxendcP5Hzw_x-rCmomedbbF-r10nBrPIIWqWWRJ3I50JGQWcG44DlbKETQ/pub?start=false&loop=false&delayms=60000) ([pdf version here](/assets/slides/Teaching_Inclusively_and_Equitably_Online.pdf)). I gave this talk at the UT Austin Inequity in STEM Seminar in summer 2020.	
+	* I also adapted this talk for an [AMS grad blog post](https://blogs.ams.org/mathgradblog/2020/07/29/ideas-and-strategies-for-taing-inclusively-and-equitably-online/).
+{: reversed="reversed"}

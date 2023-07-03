@@ -2,6 +2,73 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: splash
 author_profile: true
+title: Welcome!
+
+place: UCLA
+
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/enchantedrock.jpg
+  actions:
+    - label: "News"
+      url: "/posts/"
+    - label: "Student FAQ"
+      url: "/StudentFAQ/"
+#  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: >
+  <i>"Somewhere, something incredible is waiting to be known."</i><br />
+  
+
+feature_row2:
+  - image_path: /assets/images/Grad Teaching Showcase 2020.jpg
+    alt: "Teaching"
+    title: "Teaching"
+    excerpt: "Teaching and communicating mathematics is an important part of my mathematical identity, and I value the impact that I have as an educator. It is for this reason that I am committed to inclusive and equitable teaching that affirms and empowers students."
+    url: "teaching"
+    btn_label: "Learn More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/candidacytalk.jpeg
+    alt: "Research"
+    title: "Research"
+    excerpt: "My research interests are in computations in (equivariant, stable) homotopy theory. [Click here for a non-technical overview of what that means](/research/nontechnical). In particular, I apply the computational methods of homotopy theory to answer questions about the modular representation theory of finite groups."
+    url: "research"
+    btn_label: "Learn More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/mocatholder.png
+    title: "Outreach"
+    excerpt: "I am committed to actively promoting and supporting diversity, inclusivity, and equity in mathematics, and I am engaged in efforts to break down the systemic barriers that exist due to race, gender, socio-economic background, or cultural identity."
+    url: "outreach"
+    btn_label: "Learn More"
+    btn_class: "btn--inverse"
+
+
 ---
+
+{% include profileleft.html image_path="/assets/images/me2020.png" description="A picture of me!" %}
+
+<div class="notice--info">
+<p>
+{% include /jobmarket.md %}
+</p>
+</div>
+
+{% include applicationmaterials.html %}
+
+<hr>
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts limit:2 %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+  </p>
+  <div class="excerpt">
+    {{ post.excerpt }}
+  </div>
+{% endfor %}
+
+<hr>
+
+{% include feature_row id="feature_row2" %}
