@@ -19,7 +19,7 @@ Here, you can find the various slides, notes, and other materials that I have cr
 
 {% include /applicationmaterials.html %}
 
-<div class="notice--info">
+<div class="notice--warning">
 {% include /jobmarket.md %}
 </div>
 

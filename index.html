@@ -49,7 +49,7 @@ feature_row2:
 
 {% include profileleft.html image_path="/assets/images/me2020.png" description="A picture of me!" %}
 
-<div class="notice--info">
+<div class="notice--warning">
 <p>
 {% include /jobmarket.md %}
 </p>
@@ -60,7 +60,7 @@ feature_row2:
 <hr>
 
 <!-- This loops through the paginated posts -->
-{% for post in paginator.posts limit:2 %}
+{% for post in paginator.posts limit:3 %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
   </p>
@@ -68,6 +68,8 @@ feature_row2:
     {{ post.excerpt }}
   </div>
 {% endfor %}
+
+ <p><a href="{{ site.url }}/posts/" class="btn btn--inverse btn--large" title="Older News">Older News</a></p>
 
 <hr>
 

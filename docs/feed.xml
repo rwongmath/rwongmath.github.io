@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-03T14:31:35-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Richard Wong</title><subtitle>Assistant Adjunct Professor in Mathematics at UCLA.</subtitle><author><name>Richard Wong</name></author><entry><title type="html">Summer 2023</title><link href="http://localhost:4000/teaching/23Su/" rel="alternate" type="text/html" title="Summer 2023" /><published>2023-06-26T00:00:00-07:00</published><updated>2023-06-26T00:00:00-07:00</updated><id>http://localhost:4000/teaching/23Su</id><content type="html" xml:base="http://localhost:4000/teaching/23Su/">&lt;p&gt;This quarter, I will be teaching for the UCLA Summer Bridge Program and the Summer Bootcamp in linear algebra.&lt;/p&gt;
+
+&lt;!--end_excerpt--&gt;
+
+&lt;h2 id=&quot;ucla-summer-bridge-program&quot;&gt;UCLA Summer Bridge Program&lt;/h2&gt;
+
+&lt;p&gt;I will be teaching an inquiry-based survey course to demonstrate how scientists utilize mathematics and calculus.&lt;/p&gt;
+
+&lt;p&gt;You can find the syllabus here.&lt;/p&gt;
+
+&lt;h2 id=&quot;ucla-math-department-summer-bootcamp&quot;&gt;UCLA Math Department Summer Bootcamp&lt;/h2&gt;
+
+&lt;p&gt;I will be leading the Linear Algebra portion of the Bootcamp.&lt;/p&gt;</content><author><name>Richard Wong</name></author><category term="Teaching" /><category term="UCLA" /><category term="Activities" /><summary type="html">This quarter, I will be teaching for the UCLA Summer Bridge Program and the Summer Bootcamp in linear algebra.</summary></entry><entry><title type="html">Liggett Instructor Award &amp;amp; Project NExT Fellow</title><link href="http://localhost:4000/teaching/23/" rel="alternate" type="text/html" title="Liggett Instructor Award &amp;amp; Project NExT Fellow" /><published>2023-06-01T00:00:00-07:00</published><updated>2023-06-01T00:00:00-07:00</updated><id>http://localhost:4000/teaching/23</id><content type="html" xml:base="http://localhost:4000/teaching/23/">&lt;p&gt;I’m proud to announce that I’ve won a &lt;a href=&quot;https://ww3.math.ucla.edu/departmental-awards/&quot;&gt;Liggett Instructors Award&lt;/a&gt; for my teaching at UCLA.&lt;/p&gt;
+
+&lt;p&gt;I will also be a Fellow of the 2023 cohort of &lt;a href=&quot;https://www.maa.org/programs-and-communities/professional-development/project-next&quot;&gt;Project NExT&lt;/a&gt;!&lt;/p&gt;
+
+&lt;!--end_excerpt--&gt;</content><author><name>Richard Wong</name></author><category term="Teaching" /><category term="Awards" /><summary type="html">I’m proud to announce that I’ve won a Liggett Instructors Award for my teaching at UCLA. I will also be a Fellow of the 2023 cohort of Project NExT!</summary></entry><entry><title type="html">Spring 2023</title><link href="http://localhost:4000/teaching/23S/" rel="alternate" type="text/html" title="Spring 2023" /><published>2023-03-29T00:00:00-07:00</published><updated>2023-03-29T00:00:00-07:00</updated><id>http://localhost:4000/teaching/23S</id><content type="html" xml:base="http://localhost:4000/teaching/23S/">&lt;p&gt;This quarter, I will be teaching Math 32B (Calculus of Several Variables) and Math 115A (Linear Algebra).&lt;/p&gt;
+
+&lt;!--end_excerpt--&gt;
+
+&lt;h2 id=&quot;math-115a-linear-algebra&quot;&gt;&lt;a href=&quot;/teaching/math-115a&quot;&gt;Math 115A: Linear Algebra&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can find the &lt;a href=&quot;/assets/syllabus/Math_115A_Syllabus.pdf&quot;&gt;course syllabus here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What does it mean to prove a theorem?&lt;/strong&gt;  Why are the theorems you saw in Math 33A true?  How do we generalize the properties of $\mathbb{R}^n$ as a vector space over $\mathbb{R}$?&lt;/p&gt;
+
+&lt;p&gt;115A is the &lt;em&gt;second&lt;/em&gt; course in linear algebra.  In math 33A, you learned the computational tools of linear algebra in $\mathbb{R}^n$. In math 115A, you will learn how to prove the theorems and tools you saw in 33A.  Moreover, you will generalize these theorems to the setting of abstract vector spaces.&lt;/p&gt;
+
+&lt;p&gt;115A may also be your first exposure to mathematical proofs.  In other words, this course will help you develop the mathematical reasoning and questioning skills needed to explore abstract mathematical concepts. Moreover, you will become fluent in communicating your mathematical ideas, and you will develop the ability to prove (or find counterexamples) to mathematical statements.&lt;/p&gt;
+
+&lt;p&gt;This course provides the foundation for exploring other topics in advanced mathematics.&lt;/p&gt;
+
+&lt;h2 id=&quot;math-32b-calculus-of-several-variables&quot;&gt;&lt;a href=&quot;/teaching/math-32b&quot;&gt;Math 32B: Calculus of Several Variables&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can find the &lt;a href=&quot;/assets/syllabus/Math_32B_Syllabus.pdf&quot;&gt;course syllabus here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;course-description&quot;&gt;Course Description:&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;How can we describe the physical world mathematically?&lt;/strong&gt;  What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a integral of a multivariable function? What kinds of functions can we integrate? How far can we &lt;em&gt;generalize&lt;/em&gt; the notion of integration?&lt;/p&gt;
+
+&lt;p&gt;Multivariable calculus is the mathematical language that allows us to describe the geometry of the physical world around us, such as the areas, volumes, or mass of objects; the behaviors of electromagnetic fields or fluids in space; or calculating the amount of wind blowing through the hills of Los Angeles.&lt;/p&gt;
+
+&lt;p&gt;In this course, you will develop the reasoning and questioning skills needed to explore these geometric concepts and apply them to real-life situations.  Moreover, you will become fluent in communicating your ideas through the mathematical language of multivariable calculus.&lt;/p&gt;</content><author><name>Richard Wong</name></author><category term="Teaching" /><category term="UCLA" /><category term="Activities" /><summary type="html">This quarter, I will be teaching Math 32B (Calculus of Several Variables) and Math 115A (Linear Algebra).</summary></entry><entry><title type="html">Winter 2023</title><link href="http://localhost:4000/teaching/23W/" rel="alternate" type="text/html" title="Winter 2023" /><published>2023-01-04T00:00:00-07:00</published><updated>2023-01-04T00:00:00-07:00</updated><id>http://localhost:4000/teaching/23W</id><content type="html" xml:base="http://localhost:4000/teaching/23W/">&lt;p&gt;This quarter, I will be teaching Math 32A (Calculus of Several Variables) and Math 32BH (Calculus of Several Variables, Honors).&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;If you are interested in taking 32BH, you should send me an email.&lt;/strong&gt; You are welcome to attend lectures as a guest before the add/drop deadline, and you should also talk to me before/after class to be added to the course Canvas page.&lt;/p&gt;
+
+&lt;!--end_excerpt--&gt;
+
+&lt;h2 id=&quot;math-32a-calculus-of-several-variables&quot;&gt;&lt;a href=&quot;/teaching/math-32a&quot;&gt;Math 32A: Calculus of Several Variables&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can find the &lt;a href=&quot;/assets/syllabus/Math_32A_Syllabus.pdf&quot;&gt;course syllabus here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;course-description&quot;&gt;Course Description:&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;How can we describe the physical world mathematically?&lt;/strong&gt; What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a derivative of a multivariable function?&lt;/p&gt;
+
+&lt;p&gt;Multivariable calculus is the mathematical language that allows us to describe the geometry of the physical world around us, such as the motion of planets in orbit, the behavior of electromagnetic forces, or the path of steepest ascent through the hills of Los Angeles.&lt;/p&gt;
+
+&lt;p&gt;In this course, you will develop the reasoning and questioning skills needed to explore these geometric concepts and apply them to real-life situations.  Moreover, you will become fluent in communicating your ideas through the mathematical language of multivariable calculus.&lt;/p&gt;
+
+&lt;h2 id=&quot;math-32bh-calculus-of-several-variables-honors&quot;&gt;&lt;a href=&quot;/teaching/math-32bh&quot;&gt;Math 32BH: Calculus of Several Variables, Honors&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can find the &lt;a href=&quot;/assets/syllabus/Math_32BH_Syllabus.pdf&quot;&gt;course syllabus here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can view the &lt;strong&gt;&lt;a href=&quot;https://github.com/rwongmath/HonorsMultivariableCalculus/blob/main/HonorsMultivariableCalculus.pdf&quot;&gt;course lecture notes&lt;/a&gt;&lt;/strong&gt; for 32BH here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How can we describe the physical world mathematically?&lt;/strong&gt;  What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a integral of a multivariable function? What kinds of functions can we integrate? How far can we &lt;em&gt;generalize&lt;/em&gt; the notion of integration?&lt;/p&gt;
+
+&lt;p&gt;Multivariable calculus is the mathematical language that allows us to describe the geometry of the physical world around us, such as the areas, volumes, or mass of objects; the behaviors of electromagnetic fields or fluids in space; or calculating the amount of wind blowing through the hills of Los Angeles.  In this course, you will develop the reasoning and questioning skills needed to explore these geometric concepts and apply them to real-life situations.  Moreover, you will become fluent in communicating your ideas through the mathematical language of multivariable calculus.&lt;/p&gt;
+
+&lt;p&gt;The course 32BH differs from 32B in that it covers the topics of multivariable calculus with more mathematical rigor. In particular, we will focus more on learning how to grapple with and understand complex mathematical concepts, as well as how to explore and generalize theorems of integration.  Moreover, this course builds the foundation for more advanced topics, such as real analysis, complex analysis, and differential geometry.&lt;/p&gt;
+
+&lt;p&gt;This course is recommended for students interested in learning about advanced mathematics.&lt;/p&gt;</content><author><name>Richard Wong</name></author><category term="Teaching" /><category term="UCLA" /><category term="Activities" /><summary type="html">This quarter, I will be teaching Math 32A (Calculus of Several Variables) and Math 32BH (Calculus of Several Variables, Honors). If you are interested in taking 32BH, you should send me an email. You are welcome to attend lectures as a guest before the add/drop deadline, and you should also talk to me before/after class to be added to the course Canvas page.</summary></entry><entry><title type="html">Fall 2022</title><link href="http://localhost:4000/teaching/22F/" rel="alternate" type="text/html" title="Fall 2022" /><published>2022-09-19T00:00:00-07:00</published><updated>2022-09-19T00:00:00-07:00</updated><id>http://localhost:4000/teaching/22F</id><content type="html" xml:base="http://localhost:4000/teaching/22F/">&lt;p&gt;This quarter, I will be teaching Math 32A (Calculus of Several Variables) and Math 32AH (Calculus of Several Variables, Honors).&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;If you are interested in taking 32AH, you should send me an email.&lt;/strong&gt; You are welcome to attend lectures as a guest before the add/drop deadline, and you should also talk to me before/after class to be added to the course Canvas page.&lt;/p&gt;
+
+&lt;!--end_excerpt--&gt;
+
+&lt;h2 id=&quot;math-32a-calculus-of-several-variables&quot;&gt;&lt;a href=&quot;/teaching/math-32a&quot;&gt;Math 32A: Calculus of Several Variables&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can find the &lt;a href=&quot;/assets/syllabus/Math_32A_Syllabus.pdf&quot;&gt;course syllabus here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;course-description&quot;&gt;Course Description:&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;How can we describe the physical world mathematically?&lt;/strong&gt; What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a derivative of a multivariable function?&lt;/p&gt;
+
+&lt;p&gt;Multivariable calculus is the mathematical language that allows us to describe the geometry of the physical world around us, such as the motion of planets in orbit, the behavior of electromagnetic forces, or the path of steepest ascent through the hills of Los Angeles.&lt;/p&gt;
+
+&lt;p&gt;In this course, you will develop the reasoning and questioning skills needed to explore these geometric concepts and apply them to real-life situations.  Moreover, you will become fluent in communicating your ideas through the mathematical language of multivariable calculus.&lt;/p&gt;
+
+&lt;h2 id=&quot;math-32ah-calculus-of-several-variables-honors&quot;&gt;&lt;a href=&quot;/teaching/math-32ah&quot;&gt;Math 32AH: Calculus of Several Variables, Honors&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can find the &lt;a href=&quot;/assets/syllabus/Math_32AH_Syllabus.pdf&quot;&gt;course syllabus here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can view the &lt;strong&gt;&lt;a href=&quot;https://github.com/rwongmath/HonorsMultivariableCalculus/blob/main/HonorsMultivariableCalculus.pdf&quot;&gt;course lecture notes&lt;/a&gt;&lt;/strong&gt; for 32AH here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How can we describe the physical world mathematically?&lt;/strong&gt; What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a derivative of a multivariable function?&lt;/p&gt;
+
+&lt;p&gt;Multivariable calculus is the mathematical language that allows us to describe the geometry of the physical world around us, such as the motion of planets in orbit, the behavior of electromagnetic forces, or the path of steepest ascent through the hills of Los Angeles. In this course, you will develop the reasoning and questioning skills needed to explore these geometric concepts and apply them to real-life situations.  Moreover, you will become fluent in communicating your ideas through the mathematical language of multivariable calculus.&lt;/p&gt;
+
+&lt;p&gt;The course 32AH differs from 32A in that it covers the topics of multivariable calculus with more mathematical rigor.  Moreover, it builds the foundation for more advanced topics, such as linear algebra, real analysis, and differential geometry.&lt;/p&gt;
+
+&lt;p&gt;This course is recommended for students interested in learning about advanced mathematics.&lt;/p&gt;</content><author><name>Richard Wong</name></author><category term="Teaching" /><category term="UCLA" /><category term="Activities" /><summary type="html">This quarter, I will be teaching Math 32A (Calculus of Several Variables) and Math 32AH (Calculus of Several Variables, Honors). If you are interested in taking 32AH, you should send me an email. You are welcome to attend lectures as a guest before the add/drop deadline, and you should also talk to me before/after class to be added to the course Canvas page.</summary></entry><entry><title type="html">Spring 2022</title><link href="http://localhost:4000/teaching/22S/" rel="alternate" type="text/html" title="Spring 2022" /><published>2022-03-23T00:00:00-07:00</published><updated>2022-03-23T00:00:00-07:00</updated><id>http://localhost:4000/teaching/22S</id><content type="html" xml:base="http://localhost:4000/teaching/22S/">&lt;p&gt;This quarter, I will be teaching two lectures of Math 32A (Calculus of Several Variables).&lt;/p&gt;
+
+&lt;!--end_excerpt--&gt;
+
+&lt;h2 id=&quot;math-32a-calculus-of-several-variables&quot;&gt;&lt;a href=&quot;/teaching/math-32a&quot;&gt;Math 32A: Calculus of Several Variables&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can find the &lt;a href=&quot;/assets/syllabus/Math_32A_Syllabus.pdf&quot;&gt;course syllabus here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;course-description&quot;&gt;Course Description:&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;How can we describe the physical world mathematically?&lt;/strong&gt; What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a derivative of a multivariable function?&lt;/p&gt;
+
+&lt;p&gt;Multivariable calculus is the mathematical language that allows us to describe the geometry of the physical world around us, such as the motion of planets in orbit, the behavior of electromagnetic forces, or the path of steepest ascent through the hills of Los Angeles.&lt;/p&gt;
+
+&lt;p&gt;In this course, you will develop the reasoning and questioning skills needed to explore these geometric concepts and apply them to real-life situations.  Moreover, you will become fluent in communicating your ideas through the mathematical language of multivariable calculus.&lt;/p&gt;</content><author><name>Richard Wong</name></author><category term="Teaching" /><category term="UCLA" /><category term="Activities" /><summary type="html">This quarter, I will be teaching two lectures of Math 32A (Calculus of Several Variables).</summary></entry><entry><title type="html">Winter 2022</title><link href="http://localhost:4000/teaching/22W/" rel="alternate" type="text/html" title="Winter 2022" /><published>2022-01-03T00:00:00-07:00</published><updated>2022-01-03T00:00:00-07:00</updated><id>http://localhost:4000/teaching/22W</id><content type="html" xml:base="http://localhost:4000/teaching/22W/">&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; Due to the COVID-19 Omicron variant, these courses were taught in an online asynchronous format for most of the quarter.&lt;/p&gt;
+
+&lt;p&gt;This quarter, I will be teaching Math 32B (Calculus of Several Variables) and Math 32BH (Calculus of Several Variables, Honors).&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;If you are interested in taking 32BH, you should send me an email.&lt;/strong&gt; You are welcome to attend lectures as a guest before the add/drop deadline, and you should also talk to me before/after class to be added to the course Canvas page.&lt;/p&gt;
+
+&lt;!--end_excerpt--&gt;
+
+&lt;h2 id=&quot;math-32b-calculus-of-several-variables&quot;&gt;&lt;a href=&quot;/teaching/math-32b&quot;&gt;Math 32B: Calculus of Several Variables&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can find the &lt;a href=&quot;/assets/syllabus/Math_32B_Syllabus.pdf&quot;&gt;course syllabus here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;course-description&quot;&gt;Course Description:&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;How can we describe the physical world mathematically?&lt;/strong&gt;  What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a integral of a multivariable function? What kinds of functions can we integrate? How far can we &lt;em&gt;generalize&lt;/em&gt; the notion of integration?&lt;/p&gt;
+
+&lt;p&gt;Multivariable calculus is the mathematical language that allows us to describe the geometry of the physical world around us, such as the areas, volumes, or mass of objects; the behaviors of electromagnetic fields or fluids in space; or calculating the amount of wind blowing through the hills of Los Angeles.&lt;/p&gt;
+
+&lt;p&gt;In this course, you will develop the reasoning and questioning skills needed to explore these geometric concepts and apply them to real-life situations.  Moreover, you will become fluent in communicating your ideas through the mathematical language of multivariable calculus.&lt;/p&gt;
+
+&lt;h2 id=&quot;math-32bh-calculus-of-several-variables-honors&quot;&gt;&lt;a href=&quot;/teaching/math-32bh&quot;&gt;Math 32BH: Calculus of Several Variables, Honors&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can find the &lt;a href=&quot;/assets/syllabus/Math_32BH_Syllabus.pdf&quot;&gt;course syllabus here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can view the &lt;strong&gt;&lt;a href=&quot;https://github.com/rwongmath/HonorsMultivariableCalculus/blob/main/HonorsMultivariableCalculus.pdf&quot;&gt;course lecture notes&lt;/a&gt;&lt;/strong&gt; for 32BH here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How can we describe the physical world mathematically?&lt;/strong&gt;  What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a integral of a multivariable function? What kinds of functions can we integrate? How far can we &lt;em&gt;generalize&lt;/em&gt; the notion of integration?&lt;/p&gt;
+
+&lt;p&gt;Multivariable calculus is the mathematical language that allows us to describe the geometry of the physical world around us, such as the areas, volumes, or mass of objects; the behaviors of electromagnetic fields or fluids in space; or calculating the amount of wind blowing through the hills of Los Angeles.  In this course, you will develop the reasoning and questioning skills needed to explore these geometric concepts and apply them to real-life situations.  Moreover, you will become fluent in communicating your ideas through the mathematical language of multivariable calculus.&lt;/p&gt;
+
+&lt;p&gt;The course 32BH differs from 32B in that it covers the topics of multivariable calculus with more mathematical rigor. In particular, we will focus more on learning how to grapple with and understand complex mathematical concepts, as well as how to explore and generalize theorems of integration.  Moreover, this course builds the foundation for more advanced topics, such as real analysis, complex analysis, and differential geometry.&lt;/p&gt;
+
+&lt;p&gt;This course is recommended for students interested in learning about advanced mathematics.&lt;/p&gt;</content><author><name>Richard Wong</name></author><category term="Teaching" /><category term="UCLA" /><category term="Activities" /><summary type="html">Note: Due to the COVID-19 Omicron variant, these courses were taught in an online asynchronous format for most of the quarter. This quarter, I will be teaching Math 32B (Calculus of Several Variables) and Math 32BH (Calculus of Several Variables, Honors). If you are interested in taking 32BH, you should send me an email. You are welcome to attend lectures as a guest before the add/drop deadline, and you should also talk to me before/after class to be added to the course Canvas page.</summary></entry><entry><title type="html">Fall 2021</title><link href="http://localhost:4000/teaching/21F/" rel="alternate" type="text/html" title="Fall 2021" /><published>2021-09-20T00:00:00-07:00</published><updated>2021-09-20T00:00:00-07:00</updated><id>http://localhost:4000/teaching/21F</id><content type="html" xml:base="http://localhost:4000/teaching/21F/">&lt;p&gt;This quarter, I will be teaching Math 32A (Calculus of Several Variables) and Math 32AH (Calculus of Several Variables, Honors).&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;If you are interested in taking 32AH, you should send me an email.&lt;/strong&gt; You are welcome to attend lectures as a guest before the add/drop deadline, and you should also talk to me before/after class to be added to the course Canvas page.&lt;/p&gt;
+
+&lt;!--end_excerpt--&gt;
+
+&lt;h2 id=&quot;math-32a-calculus-of-several-variables&quot;&gt;&lt;a href=&quot;/teaching/math-32a&quot;&gt;Math 32A: Calculus of Several Variables&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can find the &lt;a href=&quot;/assets/syllabus/Math_32A_Syllabus.pdf&quot;&gt;course syllabus here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;course-description&quot;&gt;Course Description:&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;How can we describe the physical world mathematically?&lt;/strong&gt; What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a derivative of a multivariable function?&lt;/p&gt;
+
+&lt;p&gt;Multivariable calculus is the mathematical language that allows us to describe the geometry of the physical world around us, such as the motion of planets in orbit, the behavior of electromagnetic forces, or the path of steepest ascent through the hills of Los Angeles.&lt;/p&gt;
+
+&lt;p&gt;In this course, you will develop the reasoning and questioning skills needed to explore these geometric concepts and apply them to real-life situations.  Moreover, you will become fluent in communicating your ideas through the mathematical language of multivariable calculus.&lt;/p&gt;
+
+&lt;h2 id=&quot;math-32ah-calculus-of-several-variables-honors&quot;&gt;&lt;a href=&quot;/teaching/math-32ah&quot;&gt;Math 32AH: Calculus of Several Variables, Honors&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can find the &lt;a href=&quot;/assets/syllabus/Math_32AH_Syllabus.pdf&quot;&gt;course syllabus here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can view the &lt;strong&gt;&lt;a href=&quot;https://github.com/rwongmath/HonorsMultivariableCalculus/blob/main/HonorsMultivariableCalculus.pdf&quot;&gt;course lecture notes&lt;/a&gt;&lt;/strong&gt; for 32AH here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How can we describe the physical world mathematically?&lt;/strong&gt; What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a derivative of a multivariable function?&lt;/p&gt;
+
+&lt;p&gt;Multivariable calculus is the mathematical language that allows us to describe the geometry of the physical world around us, such as the motion of planets in orbit, the behavior of electromagnetic forces, or the path of steepest ascent through the hills of Los Angeles. In this course, you will develop the reasoning and questioning skills needed to explore these geometric concepts and apply them to real-life situations.  Moreover, you will become fluent in communicating your ideas through the mathematical language of multivariable calculus.&lt;/p&gt;
+
+&lt;p&gt;The course 32AH differs from 32A in that it covers the topics of multivariable calculus with more mathematical rigor.  Moreover, it builds the foundation for more advanced topics, such as linear algebra, real analysis, and differential geometry.&lt;/p&gt;
+
+&lt;p&gt;This course is recommended for students interested in learning about advanced mathematics.&lt;/p&gt;</content><author><name>Richard Wong</name></author><category term="Teaching" /><category term="UCLA" /><category term="Activities" /><summary type="html">This quarter, I will be teaching Math 32A (Calculus of Several Variables) and Math 32AH (Calculus of Several Variables, Honors). If you are interested in taking 32AH, you should send me an email. You are welcome to attend lectures as a guest before the add/drop deadline, and you should also talk to me before/after class to be added to the course Canvas page.</summary></entry></feed>

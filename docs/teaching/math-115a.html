@@ -1,0 +1,528 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Math 115A: Linear Algebra - Richard Wong</title>
+<meta name="description" content="You can find the course syllabus here.  What does it mean to prove a theorem?  Why are the theorems you saw in Math 33A true?  How do we generalize the properties of $\mathbb{R}^n$ as a vector space over $\mathbb{R}$?  115A is the second course in linear algebra.  In math 33A, you learned the computational tools of linear algebra in $\mathbb{R}^n$. In math 115A, you will learn how to prove the theorems and tools you saw in 33A.  Moreover, you will generalize these theorems to the setting of abstract vector spaces.  115A may also be your first exposure to mathematical proofs.  In other words, this course will help you develop the mathematical reasoning and questioning skills needed to explore abstract mathematical concepts. Moreover, you will become fluent in communicating your mathematical ideas, and you will develop the ability to prove (or find counterexamples) to mathematical statements.  This course provides the foundation for exploring other topics in advanced mathematics.">
+
+
+  <meta name="author" content="Richard Wong">
+  
+  <meta property="article:author" content="Richard Wong">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Richard Wong">
+<meta property="og:title" content="Math 115A: Linear Algebra">
+<meta property="og:url" content="http://localhost:4000/teaching/math-115a">
+
+
+  <meta property="og:description" content="You can find the course syllabus here.  What does it mean to prove a theorem?  Why are the theorems you saw in Math 33A true?  How do we generalize the properties of $\mathbb{R}^n$ as a vector space over $\mathbb{R}$?  115A is the second course in linear algebra.  In math 33A, you learned the computational tools of linear algebra in $\mathbb{R}^n$. In math 115A, you will learn how to prove the theorems and tools you saw in 33A.  Moreover, you will generalize these theorems to the setting of abstract vector spaces.  115A may also be your first exposure to mathematical proofs.  In other words, this course will help you develop the mathematical reasoning and questioning skills needed to explore abstract mathematical concepts. Moreover, you will become fluent in communicating your mathematical ideas, and you will develop the ability to prove (or find counterexamples) to mathematical statements.  This course provides the foundation for exploring other topics in advanced mathematics.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2023-07-03T14:31:35-07:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/teaching/math-115a">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Richard Wong Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Home
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/teaching/">Teaching</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/">Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/outreach/">Outreach</a>
+            </li><li class="masthead__menu-item">
+              <a href="/assets/Richard_Wong_CV.pdf">CV</a>
+            </li><li class="masthead__menu-item">
+              <a href="/materials/">Materials</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About me</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/me2020avatar.png" alt="Richard Wong" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Richard Wong</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Assistant Adjunct Professor in <a href="https://ww3.math.ucla.edu/">Mathematics</a> at <a href="https://www.ucla.edu/">UCLA</a>.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Links</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="/posts/" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i><span class="label">News</span></a></li>
+          
+        
+          
+            <li><a href="/StudentFAQ/" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-comments" aria-hidden="true"></i><span class="label">Student FAQ</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Math 115A: Linear Algebra">
+    <meta itemprop="description" content="You can find the course syllabus here.What does it mean to prove a theorem?  Why are the theorems you saw in Math 33A true?  How do we generalize the properties of $\mathbb{R}^n$ as a vector space over $\mathbb{R}$?115A is the second course in linear algebra.  In math 33A, you learned the computational tools of linear algebra in $\mathbb{R}^n$. In math 115A, you will learn how to prove the theorems and tools you saw in 33A.  Moreover, you will generalize these theorems to the setting of abstract vector spaces.115A may also be your first exposure to mathematical proofs.  In other words, this course will help you develop the mathematical reasoning and questioning skills needed to explore abstract mathematical concepts. Moreover, you will become fluent in communicating your mathematical ideas, and you will develop the ability to prove (or find counterexamples) to mathematical statements.This course provides the foundation for exploring other topics in advanced mathematics.">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/teaching/math-115a" class="u-url" itemprop="url">Math 115A: Linear Algebra
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-atlas"></i> Content</h4></header>
+              <ul class="toc__menu"><li><a href="#schedule">Schedule</a></li><li><a href="#learning-objectives">Learning Objectives:</a><ul><li><a href="#linear-algebra-objectives-la">Linear Algebra Objectives (LA)</a></li><li><a href="#mathematical-reasoning-objectives-mr">Mathematical Reasoning Objectives (MR)</a></li><li><a href="#mathematical-communication-objectives-mc">Mathematical Communication Objectives (MC)</a></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        
+<p>You can find the <a href="/assets/syllabus/Math_115A_Syllabus.pdf">course syllabus here</a>.</p>
+
+<p><strong>What does it mean to prove a theorem?</strong>  Why are the theorems you saw in Math 33A true?  How do we generalize the properties of $\mathbb{R}^n$ as a vector space over $\mathbb{R}$?</p>
+
+<p>115A is the <em>second</em> course in linear algebra.  In math 33A, you learned the computational tools of linear algebra in $\mathbb{R}^n$. In math 115A, you will learn how to prove the theorems and tools you saw in 33A.  Moreover, you will generalize these theorems to the setting of abstract vector spaces.</p>
+
+<p>115A may also be your first exposure to mathematical proofs.  In other words, this course will help you develop the mathematical reasoning and questioning skills needed to explore abstract mathematical concepts. Moreover, you will become fluent in communicating your mathematical ideas, and you will develop the ability to prove (or find counterexamples) to mathematical statements.</p>
+
+<p>This course provides the foundation for exploring other topics in advanced mathematics.</p>
+
+<!--end_excerpt-->
+
+<h1 id="schedule">Schedule</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Learning Outcome</th>
+      <th>Textbook Section</th>
+      <th>Lectures</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LA1</td>
+      <td><b>The language of mathematics</b>. Describe and identify sets.  Describe and identify functions between sets. Construct mathematical proofs using common techniques (direct proof; contrapositive; contradiction, etc.). Generalize the properties of $\mathbb{R}$ to the definition of a field. Identify if a set (with a given addition and multiplication) is a field.</td>
+      <td>1.A</td>
+      <td>1-3</td>
+    </tr>
+    <tr>
+      <td>LA2</td>
+      <td><b>Vector spaces</b>. Generalize the properties of $\mathbb{R}^n$ to the definition of a vector space over a field.  Reason with vector space axioms.  Prove that collections are vector spaces or subspaces.  Determine if a set of vectors are linearly independent, or a basis.  Calculate coordinate vectors.</td>
+      <td>1.B-2.C</td>
+      <td>4-9</td>
+    </tr>
+    <tr>
+      <td>LA3</td>
+      <td><b>Linear maps and matrices</b>. Determine if a function between vector spaces is linear.  Determine whether a linear map is surjective, injective, or invertible.  Given a basis, determine the standard matrix associated to a linear map.</td>
+      <td>3.A-3.D, 10.A</td>
+      <td>10-15</td>
+    </tr>
+    <tr>
+      <td>LA4</td>
+      <td><b>Eigenvalues and Eigenvectors</b>. Compute determinants.  Compute eigenvectors and eigenvalues for a given matrix and relate these to an invariant subspace.</td>
+      <td>10.B, 5.A-5.C</td>
+      <td>16-18</td>
+    </tr>
+    <tr>
+      <td>LA5</td>
+      <td><b>Diagonalizability</b>. Determine when a matrix is diagonalizable.</td>
+      <td>10.A-5.C</td>
+      <td>19-20</td>
+    </tr>
+    <tr>
+      <td>LA6</td>
+      <td><b>Inner products</b>. Generalize the dot product in $\mathbb{R}^n$ to inner products.  Prove properties of abstract inner product spaces.</td>
+      <td>6.A-6.B</td>
+      <td>21-23</td>
+    </tr>
+    <tr>
+      <td>LA7</td>
+      <td><b>Normal and Self-adjoint Operators</b>. Relate the fact that an operator is self-adjoint or normal to facts about the operators’ eigenvectors.</td>
+      <td>7.A, 9.B</td>
+      <td>24-27</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="learning-objectives">Learning Objectives:</h1>
+
+<p>The goals of the course are that you: </p>
+
+<ul>
+  <li>Acquire an understanding of the geometry of Euclidean space, linear transformations, and the differential calculus of multivariable functions.</li>
+  <li>Develop the reasoning and questioning skills needed to explore these (mathematical) topics and apply them to real-life situations.</li>
+  <li>Develop the collaboration and communication skills needed to convey your (mathematical) ideas.</li>
+</ul>
+
+<p>Below you will find the explicit learning objectives associated to each of these goals.</p>
+
+<h2 id="linear-algebra-objectives-la">Linear Algebra Objectives (LA)</h2>
+
+<ol>
+
+  <li> <b>The language of mathematics</b>. Describe and identify sets.  Describe and identify functions between sets. Construct mathematical proofs using common techniques (direct proof; contrapositive; contradiction, etc.). Generalize the properties of $\mathbb{R}$ to the definition of a field. Identify if a set (with a given addition and multiplication) is a field.
+  </li>
+
+  <li> <b>Vector spaces</b>. Generalize the properties of $\mathbb{R}^n$ to the definition of a vector space over a field.  Reason with vector space axioms.  Prove that collections are vector spaces or subspaces.  Determine if a set of vectors are linearly independent, or a basis.  Calculate coordinate vectors.
+  </li>
+
+  <li> <b>Linear maps and matrices</b>. Determine if a function between vector spaces is linear.  Determine whether a linear map is surjective, injective, or invertible.  Given a basis, determine the standard matrix associated to a linear map.
+  </li>
+
+  <li> <b>Eigenvalues and Eigenvectors</b>. Compute determinants.  Compute eigenvectors and eigenvalues for a given matrix and relate these to an invariant subspace.
+  </li>
+
+  <li> <b>Diagonalizability</b>. Determine when a matrix is diagonalizable.
+  </li>
+
+  <li> <b>Inner products</b>. Generalize the dot product in $\mathbb{R}^n$ to inner products.  Prove properties of abstract inner product spaces.
+  </li>
+
+  <li> <b>Normal and Self-adjoint Operators</b>. Relate the fact that an operator is self-adjoint or normal to facts about the operators’ eigenvectors.
+  </li>
+
+</ol>
+
+<h2 id="mathematical-reasoning-objectives-mr">Mathematical Reasoning Objectives (MR)</h2>
+<ol>
+  <li><strong>Reason abstractly and quantitatively.</strong>  Use mathematics to model real-world situations and to interpret and solve problems.  Make appropriate assumptions and approximations to simplify a complicated situation. Draw pictures or study examples to provide insight.  Attend to the meaning of quantities instead of just computing them. Consider the units involved.</li>
+  <li><strong>Make sense of problems and persevere in solving them.</strong>  Understand what a problem is asking for. Analyze the givens, constraints, and goals of a problem. Break large/complex problems into smaller/simpler problems. Check answers using alternate methods.</li>
+  <li><strong>Build intuition.</strong>  Investigate and create specific examples and counterexamples. Look for and make use of structure or repeated patterns. Look for both general methods and shortcuts.  Seek to understand unexpected results.</li>
+  <li><strong>Use appropriate tools strategically.</strong>  Consider the available tools when solving a mathematical problem. Understand and use stated assumptions, definitions, and previously established results.</li>
+  <li><strong>Construct viable arguments.</strong>  Make conjectures, and use assumptions, definitions, and/or previously established results to prove or disprove them. Use strategies such as direct proofs, contrapositive statements, proof by cases, or proof by contradiction.</li>
+  <li><strong>Be creative and explore mathematics.</strong> Do more than find a solution. Look for novel or elegant solutions. See what changes when you add, change, or weaken hypotheses. Draw connections between topics and ideas.</li>
+</ol>
+
+<h2 id="mathematical-communication-objectives-mc">Mathematical Communication Objectives (MC)</h2>
+<ol>
+  <li><strong>Ask questions.</strong>  Notice, identify, and clarify sources of confusion. Look for connections and relationships between ideas. Explore topics and ideas deeply.</li>
+  <li><strong>Use and develop mathematical fluency.</strong>  Use standard mathematical notations and terms (as discussed in class or demonstrated in course materials).  Clearly indicate and explain any use of non-standard shorthand, notation, or tools.</li>
+  <li><strong>Analyze and constructively critique the reasoning of others.</strong>  Actively listen and summarize key ideas to check comprehension. Test conjectures against examples and potential counterexamples. Assess and reconcile various approaches to problems. Work together to find errors and fix flaws.</li>
+  <li><strong>Explain and justify your reasoning.</strong>  Communicate and justify your conclusions to others. Indicate the general strategy or argument, and identify the key step or idea(s). Listen and reflect to the critiques of others.  Work together to find errors and fix flaws.</li>
+  <li><strong>Attend to precision.</strong>  Communicate precisely to others. Use clear definitions, and carefully state any assumptions or results used.  Be able to explain heuristics/arguments in depth.</li>
+  <li><strong>Be clear and concise.</strong>  se the appropriate amount of generality or specificity in arguments.  Avoid use of any extraneous assumptions, hypotheses, or statements. Indicate any figures or examples that you have in mind.</li>
+  <li><strong>Review, reflect, and revise.</strong> Review previous work and assess the positives and negatives. Reflect on your strategies and look for ways to improve. Use feedback to grow and develop your mathematical reasoning or communication skills.</li>
+</ol>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/teaching/m-371e" class="pagination--pager" title="M 371E: Learning Assistant Experience in Mathematics
+">Previous</a>
+    
+    
+      <a href="/teaching/math-32a" class="pagination--pager" title="Math 32A: Calculus of Several Variables
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://www.ucla.edu/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-paw" aria-hidden="true"></i> UCLA</a></li>
+        
+      
+        
+          <li><a href="https://ww3.math.ucla.edu/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-book" aria-hidden="true"></i> Department of Mathematics</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Richard Wong. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
