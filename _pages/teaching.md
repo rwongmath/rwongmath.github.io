@@ -11,6 +11,7 @@ toc_icon: "chalkboard-teacher"
 ---
 
 
+{% assign update = site.data.lastupdated %}
 {% assign statement = site.static_files | where: "basename", "Richard_Wong_Teaching_Statement" | first %}
 
 > "It seems to me that the poet has only to perceive that which others do not perceive, to look deeper than others look. And the mathematician must do the same thing." 
@@ -20,7 +21,7 @@ toc_icon: "chalkboard-teacher"
 
 Teaching and communicating mathematics is an important part of my mathematical identity, and I value the impact that I have as an educator. It is for this reason that I am committed to *inclusive and equitable teaching* that *affirms and empowers* students.
 
-My **[Teaching Statement](/assets/Richard_Wong_Teaching_Statement.pdf)** can be found here (last updated {{ statement.modified_time | date: '%B %Y' }}).
+My **[Teaching Statement](/assets/Richard_Wong_Teaching_Statement.pdf)** can be found here (last updated {{ update.teaching }}).
 
 My full **Teaching Portfolio** (which contains student evaluations, teaching materials, and sample syllabi) is available upon request. Here are some [sample teaching materials](/teaching/materials).  
 
