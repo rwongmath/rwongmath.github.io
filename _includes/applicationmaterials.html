@@ -3,12 +3,14 @@
 {% assign teaching = site.static_files | where: "basename", "Richard_Wong_Teaching_Statement" | first %}
 {% assign research = site.static_files | where: "basename", "Richard_Wong_Research_Statement" | first %}
 
+{% assign update = site.data.lastupdated %}
+
 <ul>
-<li><a href="/assets/Richard_Wong_CV.pdf">My CV</a> was last updated {{ cv.modified_time | date: '%B %Y' }}.
+<li><a href="/assets/Richard_Wong_CV.pdf">My CV</a> was last updated {{ update.cv }}.
 </li> 
-<li><a href="/assets/Richard_Wong_Research_Statement.pdf">My Research Statement</a> was last updated {{ research.modified_time | date: '%B %Y' }}.
+<li><a href="/assets/Richard_Wong_Research_Statement.pdf">My Research Statement</a> was last updated {{ update.research }}.
 </li> 
-<li><a href="/assets/Richard_Wong_Teaching_Statement.pdf">My Teaching Statement</a> was last updated {{ teaching.modified_time | date: '%B %Y' }}.
+<li><a href="/assets/Richard_Wong_Teaching_Statement.pdf">My Teaching Statement</a> was last updated {{ update.teaching }}.
 </li> 
 <li><a href="/teaching/materials">Sample Teaching Materials</a>.
 </li> 

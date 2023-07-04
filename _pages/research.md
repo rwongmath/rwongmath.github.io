@@ -10,7 +10,7 @@ toc_icon: "journal-whills"
 
 ---
 
-
+{% assign update = site.data.lastupdated %}
 {% assign statement = site.static_files | where: "basename", "Richard_Wong_Research_Statement" | first %}
 
 > "In mathematics, the art of asking questions is more valuable than solving problems."
@@ -22,7 +22,7 @@ My research interests are in computations in **equivariant stable homotopy theor
 
 While homotopy theory has its origins in algebraic topology, its core tools and ideas have spread and found use in other areas of mathematics. In my research, I apply the computational methods of homotopy theory to answer questions about the **modular representation theory of finite groups**.
 
-My **[Research Statement](/assets/Richard_Wong_Research_Statement)** can be found here (last updated {{ statement.modified_time | date: '%B %Y' }}).
+My **[Research Statement](/assets/Richard_Wong_Research_Statement)** can be found here (last updated {{ update.research }}).
 
 [Click here for a brief, non-technical statement](/research/nontechnical) of my research interests, as well as an undergraduate level introduction to stable homotopy theory.
 
