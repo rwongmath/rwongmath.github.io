@@ -53,15 +53,17 @@ $warning-color: #ffd100;
 #frontpageprofile {
   width: 25%;
   height: auto;
+  border-radius: $border-radius;
   -ms-interpolation-mode: bicubic;;
-  min-width: 200px;
+  min-width: 200px;  
 }
 
 #imageleft {
   width: 25%;
   height: auto;
+  border-radius: $border-radius;
   -ms-interpolation-mode: bicubic;;
-  min-width: 200px;
+  min-width: 200px;  
 }
 
 .paddingright
@@ -80,7 +82,9 @@ padding-right: 10%;
   padding-top:1em;
   padding-bottom:.25em;
   background-color: $footer-background-color;
+  border-radius: $border-radius;
 }
+
 .standout h2 {
 margin-top: 0em;
 margin-bottom: 0em;
@@ -98,4 +102,13 @@ margin-top: 0em;
   padding-top:1em;
   padding-bottom:.25em;
 background-color: $background-color;
+}
+
+.standoutlist {
+  padding-left:1em;  
+  padding-right:1em;
+  padding-top:.25em;
+  padding-bottom:.25em;
+  background-color: $footer-background-color;
+  border-radius: $border-radius;
 }

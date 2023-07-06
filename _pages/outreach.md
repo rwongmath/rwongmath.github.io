@@ -40,15 +40,14 @@ Some of the activities I've helped to organize include:
 * A virtual UT Austin Math Graduate School Recruitment Event
 * The Distinguished Mathematician of Color Colloquium Series
 * The Existence and Uniqueness Book Club
-* The What is... Series, a series of expository talks
 * Graduate Student Office Hours
-* Latex Workshops
 
 In 2021, we received a [Tensor SUMMA 2021 Grant](https://www.maa.org/node/1378448).
 
-<div class="standout" markdown="1">
+
 ## Seminar Talks
 
+<div class="standoutlist" markdown="1">
 {% include /list_ediseminar.md %}
 </div>
 
@@ -61,9 +60,12 @@ I'm happy to work with local communities to promote mathematics!   If you'd like
 
 ## Expository/Outreach Talks
 
+<div class="standoutlist" markdown="1">
 {% include /list_expositoryoutreach.md %}
-
+</div>
 
 ## Math Circles
 
+<div class="standoutlist" markdown="1">
 {% include /list_mathcircles.md %}
+</div>

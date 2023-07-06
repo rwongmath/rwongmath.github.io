@@ -19,8 +19,7 @@ Once or twice a quarter, I will invite guest mathematicians to attend special of
 <ul>
 {% for guest in site.data.socialofficehours %}
 <li><a href="{{ guest.website }}"> {{ guest.fancyname }}</a> visited in {{ guest.visit }}{% if guest.virtual == true %}
-  (virtually, via Zoom)
-{% endif %}.
+  (virtually, via Zoom){% endif %}.
 </li>
 {% endfor %}
 </ul>

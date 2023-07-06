@@ -26,31 +26,34 @@ Here, you can find the various slides, notes, and other materials that I have cr
 # Talk Slides
 
 
-<div class="standout" markdown="1">
+
 ## Research/Expository
 
+<div class="standoutlist" markdown="1">
 {% include /list_researchseminar.md %}
 
 </div>
 
 ## Outreach/Expository
 
+<div class="standoutlist" markdown="1">
 {% include /list_expositoryoutreach.md %}
+</div>
 
 ### Math Circles
 
-
+<div class="standoutlist" markdown="1">
 {% include /list_mathcircles.md %}
-
-
-<div class="standout" markdown="1">
+</div>
 
 ## Pedagogy
 
+<div class="standoutlist" markdown="1">
 {% include /list_teachingseminar.md %}
-
 </div>
 
 ## EDI
 
+<div class="standoutlist" markdown="1">
 {% include /list_ediseminar.md %}
+</div>

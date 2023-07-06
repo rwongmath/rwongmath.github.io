@@ -46,6 +46,7 @@ Moreover, I design my courses with an emphasis on **student collaboration**, and
 
 ## UCLA
 
+<div class="standoutlist" markdown="1">
 <ul>
 {% for course in site.courses_taught %}
 {% if course.school == "UCLA" %}	
@@ -55,10 +56,12 @@ Moreover, I design my courses with an emphasis on **student collaboration**, and
 {% endif %}
 {% endfor %}
 </ul>
+</div>
 
 
 ## UT Austin
 
+<div class="standoutlist" markdown="1">
 <ul>
 {% for course in site.courses_taught %}
 {% if course.school == "Texas" %}	
@@ -68,24 +71,30 @@ Moreover, I design my courses with an emphasis on **student collaboration**, and
 {% endif %}
 {% endfor %}
 </ul>
+</div>
 
 ## Other Experience
 
+<div class="standoutlist" markdown="1">
 * From Summer 2017-2021, I have either taught or co-taught [Summer Minicourses](https://web.ma.utexas.edu/SMC/) on homological algebra and/or spectral sequences. 
 	* Each minicourse is a week of lectures and problem sessions designed to teach graduate and advanced undergraduate students tools, methods, or ideas in research-level mathematics.
 * I have mentored 9 undergraduate reading projects on various topics in algebra, topology, and homotopy theory through the [UT Austin Directed Reading Program](https://web.ma.utexas.edu/users/drp/) (DRP).
 
+</div>
+
 ## TA Experience
 
+<div class="standoutlist" markdown="1">
 * TA for [UGS 303: From Numbers to Chaos](/teaching/UGS_303) at UT Austin.
 * TA for M 408M: Multivariable Calculus at UT Austin.
 * SI leader for M 408K: Differential Calculus at UT Austin.
 * TA for the [Young Scholars Program in Discrete Mathematics](http://dimacs.rutgers.edu/archive/ysp/).
 * Mathematics Peer Mentor for 152H, 192H, 251H, 291H, and 292H at Rutgers University.
 
+</div>
+
 <hr>
 
-<div class="standout" markdown="1">
 
 # Seminars, Workshops, and Awards:
 
@@ -93,17 +102,22 @@ Throughout my career, I have participated in various seminars, workshops, and pr
 
 ## Awards
 
+<div class="standoutlist" markdown="1">
 * **Liggett Instructor Teaching Award**, UCLA Spring 2023
 * **SSD Appreciation Award** (“Clock Award”), UT Austin Spring 2021
 * **FIC Graduate Student Teaching Award**, UT Austin Spring 2020
 {: reversed="reversed"}
 
+</div>
 ## Seminar Talks
 
+<div class="standoutlist" markdown="1">
 {% include /list_teachingseminar.md %}
 
+</div>
 ## Workshops
 
+<div class="standoutlist" markdown="1">
 0. [CEILS Summer Institute: Foundations of Equitable Course Design](https://ceils.ucla.edu/learning-communities-trainings/summer-institute-on-scientific-teaching/), Summer 2022
 0. [CEILS Annual Faculty Workshop on Best Equitable Practices In Teaching](https://ceils.ucla.edu/ceils-annual-faculty-workshop21/), Summer 2021
 0. [New Faculty Teaching Engagement (NFTE) workshop](https://teaching.ucla.edu/faculty-programs/new-faculty-teaching-engagement/), Summer 2021

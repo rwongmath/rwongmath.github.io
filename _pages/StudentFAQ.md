@@ -75,6 +75,7 @@ Once or twice a quarter, I will invite guest mathematicians to attend special of
 [Here is a list of previous guests that have attended](/teaching/socialhours).
 </div>
 
+<hr>
 
 # Math/Career Advice:
 
