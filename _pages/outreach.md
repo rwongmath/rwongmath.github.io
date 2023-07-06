@@ -16,20 +16,22 @@ toc_icon: "jedi"
 <cite>--- [Federico Ardila](http://fardila.com/)</cite>
 {: .small} 
 
-I am committed to actively promoting and supporting **diversity, inclusivity, and equity in mathematics**. I believe that in order to **make mathematics more accessible and inclusive for all**, one must actively work to break down the systemic barriers that exist due to race, gender, socio-economic background, or cultural identity. If you're new to these ideas, send me an email - I'm happy to have a conversation with you!
+I am committed to actively promoting and supporting **equity, diversity, and inclusivity in mathematics**. I believe that in order to **make mathematics more accessible and inclusive for all**, one must actively work to break down the systemic barriers that exist due to race, gender, socio-economic background, or cultural identity. If you're new to these ideas, send me an email - I'm happy to have a conversation with you!
 
 
 <!--end_excerpt-->
 
 I have engaged in outreach efforts at multiple levels to help others overcome these barriers, which include: providing academic support and mentorship; creating supportive and welcoming mathematical communities; and recruiting future generations of mathematicians through outreach.
 
-## EDI Efforts
+# EDI Efforts
 
-### Summer BRIDGE Program
+<div class="standout" markdown="1">
+## Summer BRIDGE Program
 
 In Summer 2023, I worked with Britney Robinson, Bon-Soon Lin, and the UCLA Division of Physical Sciences to create and teach a Summer Bridge Program for incoming first-years who identify as underrepresented minorities or low income groups in the Physical Sciences.
 
-### MOCAT
+</div>
+## MOCAT
 
 {% include imageleft.html image_path="/assets/images/outreach/MoCAT_legal_redux2.png" alt_text="Mathematicians of Color Alliance of Texas Logo" description="I was a founding organizer for the [Mathematicians of Color Alliance of Texas (MOCAT)](https://sites.google.com/view/mocat/). Our goal is to create a community of undergraduate and graduate math students of color to recruit, retain, support, and empower underrepresented students in mathematics." %}
 
@@ -44,21 +46,24 @@ Some of the activities I've helped to organize include:
 
 In 2021, we received a [Tensor SUMMA 2021 Grant](https://www.maa.org/node/1378448).
 
-### Seminar Talks
+<div class="standout" markdown="1">
+## Seminar Talks
 
 {% include /list_ediseminar.md %}
+</div>
 
+<hr>
 
-## Community Outreach
+# Community Outreach
 
 I'm happy to work with local communities to promote mathematics!   If you'd like me to speak at your student organization, send me an email.
 
 
-### Expository/Outreach Talks
+## Expository/Outreach Talks
 
 {% include /list_expositoryoutreach.md %}
 
 
-### Math Circles
+## Math Circles
 
 {% include /list_mathcircles.md %}

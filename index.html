@@ -26,20 +26,20 @@ feature_row2:
   - image_path: /assets/images/Grad Teaching Showcase 2020.jpg
     alt: "Teaching"
     title: "Teaching"
-    excerpt: "Teaching and communicating mathematics is an important part of my mathematical identity, and I value the impact that I have as an educator. It is for this reason that I am committed to inclusive and equitable teaching that affirms and empowers students."
+    excerpt: "Teaching and communicating mathematics is an important part of my mathematical identity, and I value the impact that I have as an educator. It is for this reason that I am committed to *inclusive and equitable teaching* that *affirms and empowers* students."
     url: "teaching"
     btn_label: "Learn More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/candidacytalk.jpeg
     alt: "Research"
     title: "Research"
-    excerpt: "My research interests are in computations in (equivariant, stable) homotopy theory. [Click here for a non-technical overview of what that means](/research/nontechnical). In particular, I apply the computational methods of homotopy theory to answer questions about the modular representation theory of finite groups."
+    excerpt: "My research interests are in computations in (equivariant, stable) homotopy theory. [Click here for a non-technical overview of what that means](/research/nontechnical). In particular, I apply the *computational methods of homotopy theory* to answer questions about the *modular representation theory* of finite groups."
     url: "research"
     btn_label: "Learn More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/mocatholder.png
     title: "Outreach"
-    excerpt: "I am committed to actively promoting and supporting diversity, inclusivity, and equity in mathematics, and I am engaged in efforts to break down the systemic barriers that exist due to race, gender, socio-economic background, or cultural identity."
+    excerpt: "I am committed to actively promoting and supporting *equity, diversity, and inclusivity* in mathematics, and I am engaged in efforts to break down the systemic barriers that exist due to race, gender, socio-economic background, or cultural identity."
     url: "outreach"
     btn_label: "Learn More"
     btn_class: "btn--inverse"
@@ -58,6 +58,7 @@ feature_row2:
 {% include applicationmaterials.html %}
 
 <hr>
+<div class="standout">
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts limit:3 %}
@@ -69,7 +70,8 @@ feature_row2:
   </div>
 {% endfor %}
 
- <p><a href="/posts/" class="btn btn--inverse btn--large" title="Older News">Older News</a></p>
+<a href="/posts/" class="btn btn--inverse btn--large" title="Older News">Older News</a>
+</div>
 
 <hr>
 

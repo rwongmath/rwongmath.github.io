@@ -25,9 +25,13 @@ Here, you can find the various slides, notes, and other materials that I have cr
 
 # Talk Slides
 
+
+<div class="standout" markdown="1">
 ## Research/Expository
 
 {% include /list_researchseminar.md %}
+
+</div>
 
 ## Outreach/Expository
 
@@ -38,9 +42,14 @@ Here, you can find the various slides, notes, and other materials that I have cr
 
 {% include /list_mathcircles.md %}
 
+
+<div class="standout" markdown="1">
+
 ## Pedagogy
 
 {% include /list_teachingseminar.md %}
+
+</div>
 
 ## EDI
 

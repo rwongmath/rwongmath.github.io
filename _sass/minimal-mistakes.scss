@@ -74,3 +74,28 @@ padding-right: 10%;
   justify-content: center;
 	}
 	  
+.standout{
+  padding-left:1em;  
+  padding-right:1em;
+  padding-top:1em;
+  padding-bottom:.25em;
+  background-color: $footer-background-color;
+}
+.standout h2 {
+margin-top: 0em;
+margin-bottom: 0em;
+}
+
+.standout h3 {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.standout blockquote {
+margin-top: 0em;
+ padding-left:1em;  
+  padding-right:1em;
+  padding-top:1em;
+  padding-bottom:.25em;
+background-color: $background-color;
+}

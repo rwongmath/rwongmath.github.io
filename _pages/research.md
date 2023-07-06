@@ -28,11 +28,18 @@ My **[Research Statement](/assets/Richard_Wong_Research_Statement)** can be foun
 
 <!--end_excerpt-->
 
+<hr>
+<div class="standout" markdown="1">
+
 # Papers/Preprints
 
 {% include /list_papers.md %}
 
 I gave a talk on this paper at the Workshop on Homotopy Theory and Group Theory at CRM Barcelona. The [video recording is available](https://youtu.be/z2Svytb7LkI).
+
+</div>
+
+<hr>
 
 # Future Directions
 

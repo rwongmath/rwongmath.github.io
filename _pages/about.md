@@ -36,8 +36,8 @@ galleryso2:
 
 galleryetc:
   - image_path: /assets/images/grandcanyon.jpg
-    alt: "Me and my wife at the Grand Canyon"
-    title: "Me and my wife at the Grand Canyon"
+    alt: "Me and Jen at the Grand Canyon"
+    title: "Me and Jen at the Grand Canyon"
   - image_path: /assets/images/mebarnowl.jpeg
     alt: "Me holding a barn owl"
     title: "Me holding a barn owl"	
@@ -53,28 +53,35 @@ gallerydoggos:
 ---
 
 	
+<div class="standout" markdown="1">
 
 I grew up in central New Jersey, and went to Rutgers for undergrad.  As an incoming freshman, I had no idea what I would study - I was considering majoring in anything ranging from English, Psychology, Computer Science, or Mathematics.
 
-At the time, I had been placed into multivariable calculus, but I sucessfully petitioned to take the honors lecture, instead. That course changed my perception about mathematics in two fundamental ways:
+At the time, I had been placed into multivariable calculus, but I sucessfully petitioned to take the honors lecture, instead. This course changed my perception about mathematics in two fundamental ways:
 
 * I learned that mathematics is more than just calculations - it is about communicating ideas and concepts.
-* I also learned that mathematics is best done collaboratively!
+* I also learned that mathematics is best done collaboratively.
 
-Furthermore, the LA for the course encouraged me to pursue further classes in mathematics (including the honors seminar in mathematics).  
+At the end of the course, the TA encouraged me to pursue further classes in mathematics (including the honors seminar in mathematics).  
 
 I quickly discovered that I enjoyed proof-based mathematics, and I especially enjoyed my classes in abstract algebra and topology as an undergraduate.  I ultimately chose to study algebraic topology (unsurprisingly) for my Ph.D at UT Austin.  I've been lucky to make many friends there, and I've been able to meet many other wonderful people through math conferences and travel.
 
 Now that I'm teaching multivariable calculus at UCLA (including the honors lecture), I'm striving to encourage and inspire future generations of mathematicians, as well.
 
+</div>
+
 <!--end_excerpt-->
+
+<hr>
 
 # Pets
 
-My partner and I have two dogs, Ernest Eugene Fontes IV (not to be confused with [Ernest Eugene Fontes III](https://erniefontes.github.io/)), and [Queen Vasti](https://www.instagram.com/im_queenvasti/).
+My wife and I have two dogs, Ernest Eugene Fontes IV (not to be confused with [Ernest Eugene Fontes III](https://erniefontes.github.io/)), and [Queen Vasti](https://www.instagram.com/im_queenvasti/).
 
 {% include gallery id="gallerydoggos" %}
 
+<hr>
+<div class="standout" markdown="1">
 # Boardgames
 
 Some of my personal favorites include:
@@ -83,6 +90,10 @@ Some of my personal favorites include:
  * Wingspan
  * Gloomhaven
  * Terraforming Mars
+
+</div>
+
+<hr>
 
 # Frisbee
 
@@ -95,6 +106,9 @@ From 2016-2020, I was co-captain of SO(2), the UT Austin math department team fo
 {% include gallery id="galleryso2" %}
 
 
+<hr>
+<div class="standout" markdown="1">
+
 # Etc.
 
 Some of my other hobbies include:
@@ -104,5 +118,7 @@ Some of my other hobbies include:
 * cooking
 * watching football ([Go Birds](https://www.philadelphiaeagles.com/)!)
 * watching (bad) movies.
+
+</div>
 
 {% include gallery id="galleryetc" %}
