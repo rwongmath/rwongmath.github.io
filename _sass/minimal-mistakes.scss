@@ -53,9 +53,9 @@ $warning-color: #ffd100;
 #frontpageprofile {
   width: 25%;
   height: auto;
-  border-radius: $border-radius;
   -ms-interpolation-mode: bicubic;;
   min-width: 200px;  
+  margin-right:1em;
 }
 
 #imageleft {
@@ -66,9 +66,16 @@ $warning-color: #ffd100;
   min-width: 200px;  
 }
 
-.paddingright
+.rounded
 {
-padding-right: 10%;
+  border-radius: $border-radius;  
+  display: block;
+  margin:5px 10px 0px 0px;
+}
+
+.paddingleft
+{
+    
 }
 
 #center{
