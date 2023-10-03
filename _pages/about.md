@@ -114,10 +114,11 @@ From 2016-2020, I was co-captain of SO(2), the UT Austin math department team fo
 Some of my other hobbies include:
 
 * [bird-watching](https://www.laaudubon.org/)
+* [taking photos](https://www.instagram.com/rwongphotos/)
 * going to shows and concerts
-* cooking
 * watching football ([Go Birds](https://www.philadelphiaeagles.com/)!)
 * watching (bad) movies.
+* cooking
 
 </div>
 

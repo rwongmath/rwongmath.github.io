@@ -8,7 +8,7 @@
   textbook: 1.B-2.C
   lectures: 4-9
   name: Vector spaces
-  description: Generalize the properties of $\mathbb{R}^n$ to the definition of a vector space over a field.  Reason with vector space axioms.  Prove that collections are vector spaces or subspaces.  Determine if a set of vectors are linearly independent, or a basis.  Calculate coordinate vectors.
+  description: Generalize the properties of $\mathbb{R}^n$ to the definition of a vector space over a field.  Reason with vector space axioms.  Prove that collections are vector spaces or subspaces.  Determine if a set of vectors are linearly independent, a spanning set, or a basis.  Calculate coordinate vectors.
 
 - number: LA3
   textbook: 3.A-3.D, 10.A

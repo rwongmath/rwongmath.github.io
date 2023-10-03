@@ -1,0 +1,38 @@
+- number: Week 1
+  textbook: 1.B-2.C
+  lectures: 4-9
+  name: Vector spaces
+  description: Reason about fields (including $\mathbb{Q}$, $\mathbb{R}$, $\mathbb{C}$, and finite fields). Examples of vector spaces over fields (including dual spaces and quotient spaces).  Subspaces and their complementary subspaces.  Determine if a set of vectors are linearly independent, a spanning set, or a basis.  Apply Gaussian elimination and reduced row echelon form to solve linear equations.
+  
+- number: Week 2
+  textbook: 3.A-3.D, 10.A
+  lectures: 10-15
+  name: Linear maps and matrices
+  description: Determine whether a linear map is surjective, injective, or invertible.  Given a basis, determine the standard matrix associated to a linear map.   Use the rank-nullity theorem. Dual spaces and dual maps, quotient spaces and quotient maps. Calculate change-of-basis matrices.  Determine if two maps are similar.  
+
+- number: Week 3
+  textbook: 10.B, 5.A-5.C
+  lectures: 16-18
+  name: Eigenvalues and Eigenvectors
+  description: Compute determinants.  Adjugate matrix + Cramer's rule.  Compute (gneeralized) eigenvectors and eigenvalues for a given linear map. Calculate characteristic and minimal polynomials. Determine when a linear map is diagonalizable.  Find the rational and Jordan canonical forms of a linear map.  Relationship to invariant subspaces.
+  
+
+- number: Week 4
+  textbook: 6.A-6.B
+  lectures: 21-23
+  name: Inner product spaces
+  description: Generalize the dot product in $\mathbb{R}^n$ to inner products.  Use the Gram-Scmidt process to construct orthonormal bases. Adjoint operators. Operator norms, frobenius norms Orthogonal and unitary maps Self-adjoint operators and matrix reps.  Spectral theorem Relate the fact that an operator is self-adjoint or normal to facts about the operators’ eigenvectors. Normal operators and canonical forms Sylverster's criterion for positve-definiteness, quadratic forms, inertia
+
+
+- number: Week 5
+  textbook: 6.A-6.B
+  lectures: 21-23
+  name: Matrix decompositions
+  description: Canonical forms for normal operators over R and C, as well as canonical forms for orthogonal and unitary matrices.  Characterization of positive semi-definite operators, and polar decomposition.  Singular Value Decomposition and optimization.  QR (orthogonal, upper triangular) least squares , LU decomposition (solving Ax=b). Choelsky decomp  Hermitian, positive-definite matrix  into LL^* * SVD decomposition U\Sigma V^* * polar decomposition UP (unitary, positive semi-definite Hermitian) 
+  
+
+- number: LA6
+  textbook: 7.A, 9.B
+  lectures: 24-27
+  name: Linear differential equations
+  description:  Matrix exponentials and their use in solving first order linear ODEs. How to solve higher order Linear ODEs. Wronskian for inhomogeneous higher order ODEs.

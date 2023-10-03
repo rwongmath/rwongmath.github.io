@@ -21,6 +21,8 @@ toc_icon: "atlas"
 You can find the [course syllabus here]({{ syllabus | relative_url }}).
 
 You can view the **[course lecture notes](https://github.com/rwongmath/HonorsMultivariableCalculus/blob/main/HonorsMultivariableCalculus.pdf)** for 32AH here.
+{: .notice--warning}
+
 
 **How can we describe the physical world mathematically?** What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a derivative of a multivariable function?
 

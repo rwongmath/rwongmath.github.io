@@ -19,6 +19,7 @@ toc_icon: "atlas"
 You can find the [course syllabus here]({{ syllabus | relative_url }}).
 
 You can view the **[course lecture notes](https://github.com/rwongmath/HonorsMultivariableCalculus/blob/main/HonorsMultivariableCalculus.pdf)** for 32BH here.
+{: .notice--warning}
 
 **How can we describe the physical world mathematically?**  What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a integral of a multivariable function? What kinds of functions can we integrate? How far can we *generalize* the notion of integration?
 
