@@ -31,7 +31,7 @@ Broadly speaking, *topology* is the study of objects called **topological spaces
 To think about these abstract spaces, we can use algebraic tools called **invariants** to determine whether two spaces are the same or different.  For example, recall that a topological space is **simply-connected** if it "has no holes" (e.g. $\mathbb{R}^2$ is simply connected, but $\mathbb{R}^2-\{(0,0)\}$ is not simply connected).  This invariant shows up in multivariable calculus in the following classical theorem about identifying conservative vector fields.
 
 <div class="standout" markdown="1">
-    Let $\bm{F}$ be a vector field on a simply-connected domain $D \subset \mathbb{R}^3$. If $\text{curl}(\bm{F}) = \bm{0}$, then $\bm{F}$ is conservative.
+Let $\overrightarrow{F}$ be a vector field on a simply-connected domain $D \subset \mathbb{R}^3$. If $\text{curl}(\overrightarrow{F}) = \overrightarrow{0}$, then $\overrightarrow{F}$ is conservative.
 </div>
 
 
@@ -42,7 +42,7 @@ In other words, this theorem tells us that we can perform a calculation (e.g. in
 The key question of algebraic topology, or more generally, *homotopy theory*, is the following idea: 
 
 <div class="standout" markdown="1">
-    Given a collection of objects and some notion of equivalence, we would like to determine whether or not two objects are the *same* or *different*. 
+Given a collection of objects and some notion of equivalence, we would like to determine whether or not two objects are the *same* or *different*. 
 </div>
 
 For example, in topology, the objects we study are **topological spaces**, and one notion of equivalence is **homotopy equivalence**. Examples of topological spaces include circles, spheres, and donuts, and anything you can form out of rubber. We say two topological spaces are homotopy equivalent if you can stretch, shrink, or deform one into the other through continuous maps. This means that you are not allowed to cut, pierce, or attach things to the object you start with.
