@@ -12,6 +12,7 @@ toc_icon: "atlas"
 
 22Winter: true
 23Winter: true
+24Winter: true
 ---
 
 {% capture syllabus %}assets/syllabus/{{ page.number | split: " " | first }}_{{ page.number | split: " " | last }}_Syllabus.pdf{% endcapture %}

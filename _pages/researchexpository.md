@@ -17,23 +17,40 @@ Broadly speaking, **topology** is a generalization of the study of shapes. These
 
 Homotopy theory has its origins in algebraic topology, but its core tools and ideas have spread and found use in other areas of mathematics. In my research, I apply the computational methods of homotopy theory to answer questions about the **modular representation theory** of finite groups.
 
-Below is a brief, undergraduate-level introduction to the kinds of things I think about, namely stable homotopy theory. For further details on my research, check out my [Research page](/research).
+Below is a brief, undergraduate-level introduction to the kinds of things I think about. For further details on my research, check out my [Research page](/research).
 </div>
 
 <!--end_excerpt-->
 
 <hr>
 
+# Algebraic Topology
+
+Broadly speaking, *topology* is the study of objects called **topological spaces**, which generalizes the study of curves and surfaces in $\mathbb{R}^3$.  Though we can visualize and geometrically think about curves and surfaces using the tools of multivariable calculus, the generalizations of these shapes are difficult to visualize in higher dimensions. Moreover, we are interested in studying properties of shapes that are independent of how they exist in $\mathbb{R}^n$.  For example, rotating or scaling don't change the fundamental properties of these shapes, and more generally, we might consider two shapes to be the same if we can \textit{continuously deform} from one shape to another.
+
+To think about these abstract spaces, we can use algebraic tools called **invariants** to determine whether two spaces are the same or different.  For example, recall that a topological space is **simply-connected** if it "has no holes" (e.g. $\mathbb{R}^2$ is simply connected, but $\mathbb{R}^2-\{(0,0)\}$ is not simply connected).  This invariant shows up in multivariable calculus in the following classical theorem about identifying conservative vector fields.
+
+<div class="standout" markdown="1">
+    Let $\bm{F}$ be a vector field on a simply-connected domain $D \subset \mathbb{R}^3$. If $\text{curl}(\bm{F}) = \bm{0}$, then $\bm{F}$ is conservative.
+</div>
+
+
+In other words, this theorem tells us that we can perform a calculation (e.g. integrating an appropriate vector field) to determine if a topological space is not simply-connected.  This illustrates the key idea of algebraic topology: **in order to understand an abstract topological space, we would like to *calculate* algebraic invariants**, such as fundamental groups, higher homotopy groups, and/or (co-)homology groups. Moreover, these invariants are typically *functorial* - that is, maps between topological spaces should give maps between their algebraic invariants.  In this way, many topological questions can be turned into computations using linear algebra.
+
 # Homotopy Theory
 
-The idea of homotopy theory is the following: given objects and a notion of equivalence, we would like to determine whether or not two objects are the same or different. 
+The key question of algebraic topology, or more generally, *homotopy theory*, is the following idea: 
 
-For example, in algebraic topology, the objects we study are **topological spaces**, and one notion of equivalence is **homotopy equivalence**. Examples of topological spaces include circles, spheres, donuts, and anything you can form out of rubber. We say two topological spaces are homotopy equivalent if you can stretch, shrink, or deform one into the other through continuous maps. This means that you are not allowed to cut, pierce, or attach things to the object you start with.
+<div class="standout" markdown="1">
+    Given a collection of objects and some notion of equivalence, we would like to determine whether or not two objects are the *same* or *different*. 
+</div>
+
+For example, in topology, the objects we study are **topological spaces**, and one notion of equivalence is **homotopy equivalence**. Examples of topological spaces include circles, spheres, and donuts, and anything you can form out of rubber. We say two topological spaces are homotopy equivalent if you can stretch, shrink, or deform one into the other through continuous maps. This means that you are not allowed to cut, pierce, or attach things to the object you start with.
 
 
 {% include imagecenter.html image_path="/assets/images/research/torus.gif" alt_text="homotopy groups of spheres in low degrees" width="240px" caption="The coffee mug is homotopy equivalent to a donut! Source: Wikipedia" %}
 
-In the eyes of homotopy theorists, it is useful and convenient to replace equality with the notion of homotopy equivalence instead. Making this replacement means we are now considering the **homotopy category**. This leads to the usual joke that algebraic topologists cannot tell coffee mugs apart from donuts, since this notion of equivalence is too coarse to tell the two apart.
+In the eyes of homotopy theorists, it is useful and convenient to replace *equality* with the notion of *homotopy equivalence* instead. Making this replacement means we are now considering the **homotopy category**. This leads to the usual joke that algebraic topologists cannot tell coffee mugs apart from donuts, since this notion of equivalence is too coarse to tell the two apart.
 
 However, we can distinguish topological spaces up to homotopy by identifying certain traits (called invariants) such as **homotopy groups** and (co)homology groups. We have various powerful tools at our disposal to compute these invariants.
 
@@ -46,7 +63,7 @@ We enter the world of stable homotopy theory when we begin to investigate the st
 
 {% include figure image_path="/assets/images/research/homotopy_groups_of_spheres.png" alt_text="homotopy groups of spheres in low degrees" caption="The homotopy groups of spheres in low degrees." %}
 
-This is no coincidence: this stabilization of homotopy groups is the content of the **Freudenthal suspension theorem**. One can form a similar table for any other other topological space (Exercise: If we put a space X in the first row, what should we replace the following rows?). This leads one to look for new objects that can capture this stable information. In other words, we would like to collapse our tables along the anti-diagonal (roughly). The objects that capture this information are called **spectra**, and studying the homotopy theory of spectra is known as stable homotopy theory.
+This is no coincidence: this stabilization of homotopy groups is the content of the **Freudenthal suspension theorem**. One can form a similar table for any other other topological space (Exercise: If we replace $S^0$ with a space $X$ in the first row, what should we replace in the following rows?). This leads one to look for new objects that can capture this stable information. In other words, we would like to collapse our tables along the anti-diagonal (roughly). The objects that capture this information are called **spectra**, and studying the homotopy theory of spectra is known as stable homotopy theory.
 
 {% include figure image_path="/assets/images/research/stable_homotopy_groups_of_spheres.png" alt_text="stable homotopy groups of spheres in low degrees" caption="The stable homotopy groups of spheres are the homotopy groups of the sphere spectrum." %}
 </div>

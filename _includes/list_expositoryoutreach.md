@@ -1,3 +1,5 @@
+0. I was a panelist for the MC and WIM Equity, Diversity, and Inclusion Panel in Winter 2024.
+0. 3-spheres and the Hopf map.  I gave a talk for the Undergraduate Mathematics Student Association at UCLA in Fall 2023.
 0. [Journeys Through Mathematics](https://docs.google.com/presentation/d/e/2PACX-1vR_QD9ibmNaOE6qJkCviNMhybobr0qrlKLswVMw2KjcCLNExT9rFLErH8dJvUPkuG57B-_eI_Kdf1dw/pub?start=false&loop=false&delayms=60000).  I gave a talk in the Speaker Series for the Undergraduate Math Council at UCLA in Fall 2022.
 0. [What's it like being a mathematician?](https://docs.google.com/presentation/d/e/2PACX-1vTTbViNTUV0VfEICYr4IYXmzuXvX77yVS_EqGt6MA0ovSg7RJvrdI-P6LvEsm_G8TSnyGT3C9wFq8wU/pub?start=false&loop=false&delayms=60000) ([pdf version here](/assets/slides/Whats_it_like_being_a_mathematician_.pdf)). I gave a talk for Connected Research at UCLA in Winter 2022.
 0. [What is Algebraic Topology?](/assets/slides/What_is_Algebraic_Topology_Rose_Hulman.pdf) I gave a talk at Rose-Hulman in Spring 2021.

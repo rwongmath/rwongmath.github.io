@@ -15,6 +15,7 @@ toc_icon: "atlas"
 22Spring: true
 23Winter: true
 23Fall: true
+24Winter: true
 
 ---
 

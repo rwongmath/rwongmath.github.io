@@ -118,6 +118,7 @@ Throughout my career, I have participated in various seminars, workshops, and pr
 ## Workshops
 
 <div class="standoutlist" markdown="1">
+0. Co-Organizer for Project NExT Special Session on "[Active Learning Strategies for a Large Class.](https://meetings.ams.org/math/jmm2024/meetingapp.cgi/Session/8894)", Winter 2024
 0. [CEILS Summer Institute: Foundations of Equitable Course Design](https://ceils.ucla.edu/learning-communities-trainings/summer-institute-on-scientific-teaching/), Summer 2022
 0. [CEILS Annual Faculty Workshop on Best Equitable Practices In Teaching](https://ceils.ucla.edu/ceils-annual-faculty-workshop21/), Summer 2021
 0. [New Faculty Teaching Engagement (NFTE) workshop](https://teaching.ucla.edu/faculty-programs/new-faculty-teaching-engagement/), Summer 2021
