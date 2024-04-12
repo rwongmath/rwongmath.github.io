@@ -25,10 +25,11 @@ I have engaged in outreach efforts at multiple levels to help others overcome th
 
 # EDI Efforts
 
-<div class="standout" markdown="1">
 ## Summer BRIDGE Program
+<div class="standout" markdown="1">
 
-In Summer 2023, I worked with Britney Robinson, Bon-Soon Lin, and the UCLA Division of Physical Sciences to create and teach a Summer Bridge Program for incoming first-years who identify as underrepresented minorities or low income groups in the Physical Sciences.
+
+In Summer 2023, I worked with Britney Robinson, Bon-Soon Lin, and the UCLA Division of Physical Sciences to create and teach a Summer Bridge Program  ([Math 94: Explorations of Mathematics in the Physical World](/teaching/math-94)) for incoming first-years who identify as underrepresented minorities or low income groups in the Physical Sciences.
 
 </div>
 ## MOCAT

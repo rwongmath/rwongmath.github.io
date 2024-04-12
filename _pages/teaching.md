@@ -29,9 +29,8 @@ My full **Teaching Portfolio** (which contains student evaluations, teaching mat
 
 <hr>
 
+# Teaching Philosophy
 <div class="standout" markdown="1">
-
-# Teaching Philosophy:
 
 I strongly believe that EVERYONE is capable of success in mathematics, and I want my students to discover that mathematics can be inspiring, affirming, and even empowering.  There are two key principles that drive my teaching philosophy:
 
@@ -42,7 +41,7 @@ Moreover, I design my courses with an emphasis on **student collaboration**, and
 
 <hr>
 
-# Courses Taught:
+# Courses Taught
 
 ## UCLA
 
@@ -96,7 +95,7 @@ Moreover, I design my courses with an emphasis on **student collaboration**, and
 <hr>
 
 
-# Seminars, Workshops, and Awards:
+# Seminars, Workshops, and Awards
 
 Throughout my career, I have participated in various seminars, workshops, and programs to continue to learn about teaching and education.
 

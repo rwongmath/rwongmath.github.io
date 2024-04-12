@@ -1,0 +1,29 @@
+- number: B1
+  week: 1
+  name: Street-fighting mathematics
+  description: Interpret questions mathematically.  Develop concrete references to orders of magnitude.  Use Fermi estimation to make educated guesses.
+ 
+- number: B2
+  week: 2
+  name: Function sense
+  description: Geometrically interpret common functions, like polynomials, trig functions, and logarithms/exponential functions.  Use these functions to model real-world phenomena.
+  
+- number: B3
+  week: 3
+  name: Rates of change
+  description: Explore how common functions change as their inputs change.  Estimate and find the tangent lines to common functions.  Calculate derivatives of common functions.
+  
+- number: B4
+  week: 4
+  name: Using derivatives
+  description: Identify appropriate calculus concepts and techniques to mathematically model real-world situations.   Use derivatives to solve applied problems.
+  
+- number: B5
+  week: 5
+  name: Putting the pieces together
+  description: Explore the area underneath the curves of common functions.  Explore the relationship of integrals to derivatives. Calculate definite integrals of common functions.
+  
+- number: B6
+  week: 6
+  name: Using integrals
+  description: Identify appropriate calculus concepts and techniques to mathematically model real-world situations.   Use integrals to solve applied problems.

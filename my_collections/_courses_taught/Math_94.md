@@ -1,8 +1,8 @@
 ---
 school: UCLA
-number: Math 32B
-coursetitle: Calculus of Several Variables
-title: Math 32B&#58; Calculus of Several Variables
+number: Math 94
+coursetitle: Explorations of Mathematics in the Physical World
+title: Math 94&#58; Explorations of Mathematics in the Physical World
 
 layout: single
 
@@ -10,54 +10,52 @@ toc: true
 toc_label: "Content"
 toc_icon: "atlas"
 
-22Winter: true
-23Spring: true
+23Summer: true
 ---
+
 
 {% capture syllabus %}assets/syllabus/{{ page.number | split: " " | first }}_{{ page.number | split: " " | last }}_Syllabus.pdf{% endcapture %}
 
 You can find the [course syllabus here]({{ syllabus | relative_url }}).
 
+**How can we describe the physical world mathematically?**  How can we use mathematics to describe phenomena in physics, chemistry, or other STEM fields?  How should we think about and interpret mathematical formulas?
 
-# Course Description:
+Mathematics is a language that allows us to describe the geometry of the physical world around us, such as estimating the number of candies in a jar, the trajectory of a baseball, the behavior of chemical reactions, or the amount of water flowing out of a bottle. 
 
-**How can we describe the physical world mathematically?**  What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a integral of a multivariable function? What kinds of functions can we integrate? How far can we *generalize* the notion of integration?
-
-Multivariable calculus is the mathematical language that allows us to describe the geometry of the physical world around us, such as the areas, volumes, or mass of objects; the behaviors of electromagnetic fields or fluids in space; or calculating the amount of wind blowing through the hills of Los Angeles.
-
-In this course, you will develop the reasoning and questioning skills needed to explore these geometric concepts and apply them to real-life situations.  Moreover, you will become fluent in communicating your ideas through the mathematical language of multivariable calculus.
+In this course, you will develop the reasoning and questioning skills needed to explore these calculus concepts and apply them to real-life and STEM situations.  Moreover, you will become fluent in communicating your ideas through the language of mathematics.
 
 
 <!--end_excerpt-->
+
 <hr>
 
 # Schedule
 
-|  | Learning Outcome      | Textbook Section |      Lectures|                                                        
-| ---| ----------------------------         | ------ | ------------------------------------------------------------ |
-{% for objective in site.data.Math_32B_Learning_Objectives -%}
-  | {{ objective.number }} | <b>{{ objective.name }}</b>. {{ objective.description }} | {{ objective.textbook }} | {{ objective.lectures }} |
+|  | Learning Outcome      |      Week|                                                        
+| ---| ----------------------------       | ------------------------------------------------------------ |
+{% for objective in site.data.Math_94_Learning_Objectives -%}
+  | {{ objective.number }} | <b>{{ objective.name }}</b>. {{ objective.description }}  | {{ objective.week }} |
 {% endfor %}
 
 <hr>
-# Learning Objectives:
+# Learning Objectives: 
 <div class="standout" markdown="1">
- 
+
 
 The goals of the course are that you: 
 
-* Acquire an understanding of the geometry of space and the integral calculus of multivariable functions and vector fields.
+* Develop the reasoning and questioning skills needed to explore STEM topics.
 * Develop the reasoning and questioning skills needed to explore these (mathematical) topics and apply them to real-life situations.
 * Develop the collaboration and communication skills needed to convey your (mathematical) ideas.
 
 Below you will find the explicit learning objectives associated to each of these goals.
 </div>
 
-## Multivariable Calculus Objectives (MV)
 
+## Summer Bridge Objectives (B)
 <div class="standoutlist" markdown="1">
 <ol>
-{% for objective in site.data.Math_32B_Learning_Objectives %}
+{% for objective in site.data.Math_94_Learning_Objectives %}
   <li> <b>{{ objective.name }}</b>. {{ objective.description }}
   </li>
 {% endfor %}

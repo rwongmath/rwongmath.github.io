@@ -43,9 +43,9 @@ This course is recommended for students interested in learning about advanced ma
   | {{ objective.number }} | <b>{{ objective.name }}</b>. {{ objective.description }} | {{ objective.textbook }} | {{ objective.lectures }} |
 {% endfor %}
 
-
-<div class="standout" markdown="1">
+<hr>
 # Learning Objectives: 
+<div class="standout" markdown="1">
 
 The goals of the course are that you: 
 

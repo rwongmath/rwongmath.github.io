@@ -26,7 +26,7 @@ Below is a brief, undergraduate-level introduction to the kinds of things I thin
 
 # Algebraic Topology
 
-Broadly speaking, *topology* is the study of objects called **topological spaces**, which generalizes the study of curves and surfaces in $\mathbb{R}^3$.  Though we can visualize and geometrically think about curves and surfaces using the tools of multivariable calculus, the generalizations of these shapes are difficult to visualize in higher dimensions. Moreover, we are interested in studying properties of shapes that are independent of how they exist in $\mathbb{R}^n$.  For example, rotating or scaling don't change the fundamental properties of these shapes, and more generally, we might consider two shapes to be the same if we can \textit{continuously deform} from one shape to another.
+Broadly speaking, *topology* is the study of objects called **topological spaces**, which generalizes the study of curves and surfaces in $\mathbb{R}^3$.  Though we can visualize and geometrically think about curves and surfaces using the tools of multivariable calculus, the generalizations of these shapes are difficult to visualize in higher dimensions. Moreover, we are interested in studying properties of shapes that are independent of how they exist in $\mathbb{R}^n$.  For example, rotating or scaling don't change the fundamental properties of these shapes, and more generally, we might consider two shapes to be the same if we can *continuously deform* from one shape to another.
 
 To think about these abstract spaces, we can use algebraic tools called **invariants** to determine whether two spaces are the same or different.  For example, recall that a topological space is **simply-connected** if it "has no holes" (e.g. $\mathbb{R}^2$ is simply connected, but $\mathbb{R}^2-\{(0,0)\}$ is not simply connected).  This invariant shows up in multivariable calculus in the following classical theorem about identifying conservative vector fields.
 
@@ -55,9 +55,8 @@ In the eyes of homotopy theorists, it is useful and convenient to replace *equal
 However, we can distinguish topological spaces up to homotopy by identifying certain traits (called invariants) such as **homotopy groups** and (co)homology groups. We have various powerful tools at our disposal to compute these invariants.
 
 
-
-<div class="standout" markdown="1">
 ## Stable Homotopy Theory
+<div class="standout" markdown="1">
 
 We enter the world of stable homotopy theory when we begin to investigate the structure of the homotopy category. For example, if we consider the most fundamental topological spaces, the $n$-dimensional spheres, we notice some interesting patterns in a table of their homotopy groups:
 
@@ -76,9 +75,9 @@ One can then try to prove theorems in these other settings by mimicking or takin
 
 <hr>
 
-<div class="standout" markdown="1">
 
 # Further Reading
+<div class="standout" markdown="1">
 
 If you're interested in learning about algebraic topology and homotopy theory, I recommend the following resources:
 

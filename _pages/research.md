@@ -24,14 +24,14 @@ The study of *homotopy theory* originates in algebraic topology, with the invest
 
 While homotopy theory has its origins in algebraic topology, its core tools and ideas have spread and found use in other areas of mathematics. In my research, I apply the computational methods of homotopy theory to answer questions about the **modular representation theory of finite groups**.
 
-My **[Research Statement](/assets/Richard_Wong_Research_Statement)** can be found here (last updated {{ update.research }}).
+My **[Research Statement](/assets/Richard_Wong_Research_Statement.pdf)** can be found here (last updated {{ update.research }}).
 
 <!--end_excerpt-->
 
 <hr>
-<div class="standout" markdown="1">
 
 # What is algebraic topology?
+<div class="standout" markdown="1">
 
 Broadly speaking, **topology** is a generalization of the study of shapes. These shapes can be abstract and hard to visualize, so we study them though **algebra**. In particular, in homotopy theory, we use algebraic tools called invariants to describe whether two shapes are the same or different.
 
@@ -45,15 +45,18 @@ Homotopy theory has its origins in algebraic topology, but its core tools and id
 
 # Papers/Preprints
 
+<div class="standout" markdown="1">
 {% include /list_papers.md %}
 
 I gave a talk on this paper at the Workshop on Homotopy Theory and Group Theory at CRM Barcelona. The [video recording is available](https://youtu.be/z2Svytb7LkI).
 
+</div>
 
 <hr>
-<div class="standout" markdown="1">
 
 # Future Directions
+<div class="standout" markdown="1">
+
 
 In my research, I apply the computational methods of homotopy theory to answer questions about the **modular representation theory** of finite groups G over a field of characteristic p, where p divides the order of the group. One particvular problem of interest is in computing the **group of endo-trivial modules**.
 

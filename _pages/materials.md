@@ -17,11 +17,15 @@ Here, you can find the various slides, notes, and other materials that I have cr
 
 # Job Application Materials
 
+<div class="standoutlist" markdown="1">
 {% include /applicationmaterials.html %}
+</div>
 
 <!--<div class="notice--warning">
 {% include /jobmarket.md %}
 </div>-->
+
+<hr>
 
 # Talk Slides
 

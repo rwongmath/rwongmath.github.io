@@ -44,8 +44,9 @@ In this course, you will develop the reasoning and questioning skills needed to 
 {% endfor %}
 
 
-<div class="standout" markdown="1">
+<hr>
 # Learning Objectives: 
+<div class="standout" markdown="1">
 
 The goals of the course are that you: 
 

@@ -40,13 +40,14 @@ This course provides the foundation for exploring other topics in advanced mathe
   | {{ objective.number }} | <b>{{ objective.name }}</b>. {{ objective.description }} | {{ objective.textbook }} | {{ objective.lectures }} |
 {% endfor %}
 
+<hr>
 
-<div class="standout" markdown="1">
 # Learning Objectives: 
+<div class="standout" markdown="1">
 
 The goals of the course are that you: 
 
-* Acquire an understanding of the geometry of Euclidean space, linear transformations, and the differential calculus of multivariable functions.
+* Acquire an understanding of the properties of abstract vector spaces, and develop the ability to prove (or find counterexamples) to mathematical statements.
 * Develop the reasoning and questioning skills needed to explore these (mathematical) topics and apply them to real-life situations.
 * Develop the collaboration and communication skills needed to convey your (mathematical) ideas.
 
