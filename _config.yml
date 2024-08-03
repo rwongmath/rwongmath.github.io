@@ -16,7 +16,7 @@
 title: Richard Wong
 # email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Assistant Adjunct Professor in Mathematics at UCLA.
+  Assistant Teaching Professor in Mathematics at Rice University.
 # twitter_username: username
 github_username: rwongmath
 repository: "rwongmath/rwongmath.github.io"
@@ -32,7 +32,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -65,7 +65,7 @@ masthead_title: "Home"
 author:
   name   : "Richard Wong"
   avatar : "/assets/images/me2020avatar.png"
-  bio    : "Assistant Adjunct Professor in [Mathematics](https://ww3.math.ucla.edu/) at [UCLA](https://www.ucla.edu/)."
+  bio    : "Assistant Teaching Professor in [Mathematics](https://math.rice.edu/) at [UCLA](https://www.rice.edu/)."
   links:
     - label: "News"
       icon: "fas fa-fw fa-newspaper"
@@ -76,12 +76,12 @@ author:
 
 footer:
   links:
-    - label: "UCLA"
-      icon: "fas fa-fw fa-paw"
-      url: "https://www.ucla.edu/"
+    - label: "Rice University"
+      icon: "fab fa-earlybirds"
+      url: "https://www.rice.edu/"
     - label: "Department of Mathematics"
       icon: "fas fa-fw fa-book"
-      url: "https://ww3.math.ucla.edu/"
+      url: "https://math.rice.edu/"
 
   
 collections:

@@ -64,9 +64,11 @@ At the time, I had been placed into multivariable calculus, but I sucessfully pe
 
 At the end of the course, the TA encouraged me to pursue further classes in mathematics (including the honors seminar in mathematics).  
 
-I quickly discovered that I enjoyed proof-based mathematics, and I especially enjoyed my classes in abstract algebra and topology as an undergraduate.  I ultimately chose to study algebraic topology (unsurprisingly) for my Ph.D at UT Austin.  I've been lucky to make many friends there, and I've been able to meet many other wonderful people through math conferences and travel.
+I quickly discovered that I enjoyed proof-based mathematics, and I especially enjoyed my classes in abstract algebra and topology as an undergraduate.  I ultimately chose to study algebraic topology (unsurprisingly) for my Ph.D at UT Austin.  I've been lucky to make many friends there, and I've been able to meet many other wonderful people through math conferences and travel. 
 
-Now that I'm teaching multivariable calculus at UCLA (including the honors lecture), I'm striving to encourage and inspire future generations of mathematicians, as well.
+ After graduating, I took a postdoc at UCLA, to both teach and do research.  I quickly discovered that I enjoyed teaching and making an impact on my students.  I decided to focus more on the teaching aspect of my job (though I still made time for some research).  In particular, I especially enjoyed teaching Math 32AH/BH (honors multivariable calculus), and Math 94 (summer bridge program).
+
+Now that I'm an assistant teaching professor at Rice, I'm striving to encourage and inspire future generations of mathematicians, as well.  
 
 </div>
 
