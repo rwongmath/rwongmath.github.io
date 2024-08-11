@@ -65,7 +65,7 @@ masthead_title: "Home"
 author:
   name   : "Richard Wong"
   avatar : "/assets/images/me2020avatar.png"
-  bio    : "Assistant Teaching Professor in [Mathematics](https://math.rice.edu/) at [UCLA](https://www.rice.edu/)."
+  bio    : "Assistant Teaching Professor in [Mathematics](https://math.rice.edu/) at [Rice University](https://www.rice.edu/)."
   links:
     - label: "News"
       icon: "fas fa-fw fa-newspaper"
