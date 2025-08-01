@@ -16,30 +16,29 @@ toc_icon: "jedi"
 <cite>--- [Federico Ardila](http://fardila.com/)</cite>
 {: .small} 
 
-I am committed to actively promoting and supporting **equity, diversity, and inclusivity in mathematics**. I believe that in order to **make mathematics more accessible and inclusive for all**, one must actively work to break down the systemic barriers that exist due to race, gender, socio-economic background, or cultural identity. If you're new to these ideas, send me an email - I'm happy to have a conversation with you!
+I strongly believe that **EVERYONE** is capable of success in mathematics, and I am committed to making mathematics more accessible and inclusive for all.  In particular, I believe that we must actively work to break down any systemic barriers that exist due to race, gender, socio-economic background, or cultural identity. If you're new to these ideas, send me an email - I'm happy to have a conversation with you!
 
 
 <!--end_excerpt-->
 
 I have engaged in outreach efforts at multiple levels to help others overcome these barriers, which include: providing academic support and mentorship; creating supportive and welcoming mathematical communities; and recruiting future generations of mathematicians through outreach.
 
-# EDI Efforts
+# Efforts
 
 ## Summer BRIDGE Program
 <div class="standout" markdown="1">
 
 
-In Summer 2023, I worked with Britney Robinson, Bon-Soon Lin, and the UCLA Division of Physical Sciences to create and teach a Summer Bridge Program  ([Math 94: Explorations of Mathematics in the Physical World](/teaching/math-94)) for incoming first-years who identify as underrepresented minorities or low income groups in the Physical Sciences.
+In Summer 2023, I worked with Britney Robinson, Bon-Soon Lin, and the UCLA Division of Physical Sciences to create and teach a Summer Bridge Program  ([Math 94: Explorations of Mathematics in the Physical World](/teaching/math-94)) for incoming first-year STEM studemts from FGLI or URM backgrounds.
 
 </div>
 ## MOCAT
 
-{% include imageleft.html image_path="/assets/images/outreach/MoCAT_legal_redux2.png" alt_text="Mathematicians of Color Alliance of Texas Logo" description="I was a founding organizer for the [Mathematicians of Color Alliance of Texas (MOCAT)](https://sites.google.com/view/mocat/). Our goal is to create a community of undergraduate and graduate math students of color to recruit, retain, support, and empower underrepresented students in mathematics." %}
+{% include imageleft.html image_path="/assets/images/outreach/MoCAT_legal_redux2.png" alt_text="MoCAT Logo" description="As a grad student, I was a founding organizer for MOCAT at UT Austin." %}
 
 Some of the activities I've helped to organize include:
 
 * A virtual UT Austin Math Graduate School Recruitment Event
-* The Distinguished Mathematician of Color Colloquium Series
 * The Existence and Uniqueness Book Club
 * Graduate Student Office Hours
 
