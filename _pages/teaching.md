@@ -43,6 +43,20 @@ Moreover, I design my courses with an emphasis on **student collaboration**, and
 
 # Courses Taught
 
+## Rice
+
+<div class="standoutlist" markdown="1">
+<ul>
+{% for course in site.courses_taught %}
+{% if course.school == "Rice" %}	
+  <li>
+  <a href="{{ course.url }}">{{ course.title }}</a>
+  </li>
+{% endif %}
+{% endfor %}
+</ul>
+</div>
+
 ## UCLA
 
 <div class="standoutlist" markdown="1">
@@ -75,9 +89,10 @@ Moreover, I design my courses with an emphasis on **student collaboration**, and
 ## Other Experience
 
 <div class="standoutlist" markdown="1">
+* At Rice, I have mentored a total of 5 undergraduate students in algebraic topology and/or homotopy theory through the [Rice Directed Reading Program](https://mathweb.rice.edu/directed-reading-program).
 * From Summer 2017-2021, I have either taught or co-taught [Summer Minicourses](https://web.ma.utexas.edu/SMC/) on homological algebra and/or spectral sequences. 
 	* Each minicourse is a week of lectures and problem sessions designed to teach graduate and advanced undergraduate students tools, methods, or ideas in research-level mathematics.
-* I have mentored 9 undergraduate reading projects on various topics in algebra, topology, and homotopy theory through the [UT Austin Directed Reading Program](https://web.ma.utexas.edu/users/drp/) (DRP).
+* As a grad student, I mentored a total of 9 undergraduate reading projects on various topics in algebra, topology, and homotopy theory through the [UT Austin Directed Reading Program](https://web.ma.utexas.edu/users/drp/).
 
 </div>
 
