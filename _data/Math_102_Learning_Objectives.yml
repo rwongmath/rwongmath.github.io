@@ -1,0 +1,48 @@
+- number: CII1
+  textbook: 5.5, 7.1, 7.4
+  lectures: 1-5
+  name: Techniques of integration
+  description: Describe and interpret real-world scenarios as integration problems. Apply various techniques to compute integrals, including $u$-substitution, partial fraction decomposition, and integration by parts.  Compare and contrast different methods of integration.
+
+- number: CII2
+  textbook: 7.2, 10.3-10.4
+  lectures: 6-9
+  name: Polar coordinates
+  description: Visualize and interpret polar coordinates and polar functions.  Convert between Euclidean and polar coordinates to compute areas. Calculate trigonometric integrals.
+
+- number: CII3
+  textbook: 7.3, 10.1-10.2
+  lectures: 10-14
+  name: Parametric equations
+  description: Describe curves that are not graphs of functions. Visualize and interpret parametric equations. Convert between functions and parametric equations to compute arclengths and areas.  Calculate integrals using trig substitution.
+
+- number: CII4
+  textbook: 7.8
+  lectures: 15-18
+  name: Improper integrals
+  description: Compare the behavior of functions at infinity. Determine if an integral over an infinite region exists. Evaluate integrals over infinite regions. Determine if a function can be integrated over a discontinuity. Given an improper integral, find an appropriate comparison.
+
+- number: CII5
+  textbook: 11.1-11.3
+  lectures: 19-22
+  name: Sequences and series
+  description: Describe the end term behavior of a sequence. Describe what it means for a sequence and/or series to converge. Evaluate and geometrically interpret common series. Describe examples of sequences and series that do not converge.  Describe the relationship between series and integration.
+
+
+- number: CII6
+  textbook: 11.4-11.7
+  lectures: 23-29
+  name: Series tests
+  description: Identify and apply the appropriate test to determine convergence or divergence of a given series, including the comparison test, alternating series test, and ratio test. Compare the difference between convergence, absolute convergence, and conditional convergence.
+  
+- number: CII7
+  textbook: 9.1, 11.8-11.11, 17.4
+  lectures: 30-38
+  name: Taylor series
+  description: Approximate functions (and/or their derivatives/integrals) using power series. Determine precise error bounds when using Taylor approximation.  Use Taylor series to solve differential equations.
+
+- number: CII8
+  textbook: Appx. H
+  lectures: 39-41
+  name: Complex numbers
+  description: Describe and interpret real world scenarios using complex numbers.  Describe a geometric interpretation of the complex numbers.  Explain why Euler's formula $e^{i\pi} + 1 = 0$ holds.

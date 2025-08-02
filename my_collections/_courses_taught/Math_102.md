@@ -1,8 +1,8 @@
 ---
-school: UCLA
-number: Math 115A
-coursetitle: Linear Algebra
-title: Math 115A&#58; Linear Algebra
+school: Rice
+number: Math 102
+coursetitle: Calculus II
+title: Math 102&#58; Calculus II
 
 layout: single
 
@@ -10,8 +10,9 @@ toc: true
 toc_label: "Content"
 toc_icon: "atlas"
 
-23Spring: true
-24Spring: true
+24Fall: true
+25Spring: true
+25Fall: true
 ---
 
 
@@ -19,13 +20,14 @@ toc_icon: "atlas"
 
 You can find the [course syllabus here]({{ syllabus | relative_url }}).
 
-**What does it mean to prove a theorem?**  Why are the theorems you saw in Math 33A true?  How do we generalize the properties of $\mathbb{R}^n$ as a vector space over $\mathbb{R}$?
+What tools do we have to calculate an integral like $\int_0^1 xe^{-x^2} \ dx$ or $\int_0^1 e^{-x^2} \ dx$?
 
-115A is the *second* course in linear algebra.  In math 33A, you learned the computational tools of linear algebra in $\mathbb{R}^n$. In math 115A, you will learn how to prove the theorems and tools you saw in 33A.  Moreover, you will generalize these theorems to the setting of abstract vector spaces.
+**When your calculator tells you that the value of $\int_0^1 e^{-x^2} \ dx \approx 0.746824$, how do you know it's correct?** How accurate is your calculator?   Is it possible for an infinite region to have finite area?  Can we calculate the area of a fractal?
 
-115A may also be your first exposure to mathematical proofs.  In other words, this course will help you develop the mathematical reasoning and questioning skills needed to explore abstract mathematical concepts. Moreover, you will become fluent in communicating your mathematical ideas, and you will develop the ability to prove (or find counterexamples) to mathematical statements. 
+You've previously seen in Math 101 that calculus is an important and powerful tool that allows us to describe the physical world around us.  In Math 102, we will push the notion of integration to its utmost limits.  In this class, we will build our toolbox for integration; we will study the behavior of the infinite, and we will learn how to quantify how accurate our approximations are.
 
-This course provides the foundation for exploring other topics in advanced mathematics.
+In this course, you will develop the critical thinking and questioning skills needed to answer these complex questions.  Moreover, you will become fluent in precisely communicating your ideas through the mathematical language of calculus.
+
 
 
 <!--end_excerpt-->
@@ -36,7 +38,7 @@ This course provides the foundation for exploring other topics in advanced mathe
 
 |  | Learning Outcome      | Textbook Section |      Lectures|                                                        
 | ---| ----------------------------         | ------ | ------------------------------------------------------------ |
-{% for objective in site.data.Math_115A_Learning_Objectives -%}
+{% for objective in site.data.Math_102_Learning_Objectives -%}
   | {{ objective.number }} | <b>{{ objective.name }}</b>. {{ objective.description }} | {{ objective.textbook }} | {{ objective.lectures }} |
 {% endfor %}
 
@@ -47,7 +49,7 @@ This course provides the foundation for exploring other topics in advanced mathe
 
 The goals of the course are that you: 
 
-* Acquire an understanding of the properties of abstract vector spaces, and develop the ability to prove (or find counterexamples) to mathematical statements.
+* Build your toolbox for integration; study the behavior of the infinite; and learn how to quantify the accuracy of your approximations.
 * Develop the reasoning and questioning skills needed to explore these (mathematical) topics and apply them to real-life situations.
 * Develop the collaboration and communication skills needed to convey your (mathematical) ideas.
 
@@ -55,10 +57,10 @@ Below you will find the explicit learning objectives associated to each of these
 </div>
 
 
-## Linear Algebra Objectives (LA)
+## Calculus II Objectives (CII)
 <div class="standoutlist" markdown="1">
 <ol>
-{% for objective in site.data.Math_115A_Learning_Objectives %}
+{% for objective in site.data.Math_102_Learning_Objectives %}
   <li> <b>{{ objective.name }}</b>. {{ objective.description }}
   </li>
 {% endfor %}

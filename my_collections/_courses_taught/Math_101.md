@@ -1,8 +1,8 @@
 ---
-school: UCLA
-number: Math 115A
-coursetitle: Linear Algebra
-title: Math 115A&#58; Linear Algebra
+school: Rice
+number: Math 101
+coursetitle: Calculus I
+title: Math 101&#58; Calculus I
 
 layout: single
 
@@ -10,8 +10,8 @@ toc: true
 toc_label: "Content"
 toc_icon: "atlas"
 
-23Spring: true
-24Spring: true
+24Fall: true
+25Fall: true
 ---
 
 
@@ -19,13 +19,11 @@ toc_icon: "atlas"
 
 You can find the [course syllabus here]({{ syllabus | relative_url }}).
 
-**What does it mean to prove a theorem?**  Why are the theorems you saw in Math 33A true?  How do we generalize the properties of $\mathbb{R}^n$ as a vector space over $\mathbb{R}$?
+**How can we describe the physical world mathematically?**  How can we use mathematics to describe phenomena in physics, biology, chemistry, or other STEM fields?
 
-115A is the *second* course in linear algebra.  In math 33A, you learned the computational tools of linear algebra in $\mathbb{R}^n$. In math 115A, you will learn how to prove the theorems and tools you saw in 33A.  Moreover, you will generalize these theorems to the setting of abstract vector spaces.
+Calculus is the mathematical language that allows us to describe and model the behavior of the physical world around us, such as the speed and acceleration at which we travel, as well as our distance and displacement; or how a population grows and changes over time; or the rate at which chemicals react or move towards equilibrium.
 
-115A may also be your first exposure to mathematical proofs.  In other words, this course will help you develop the mathematical reasoning and questioning skills needed to explore abstract mathematical concepts. Moreover, you will become fluent in communicating your mathematical ideas, and you will develop the ability to prove (or find counterexamples) to mathematical statements. 
-
-This course provides the foundation for exploring other topics in advanced mathematics.
+In this course, you will develop the reasoning and questioning skills needed to explore these concepts mathematically.  Moreover, you will become fluent in communicating your ideas through the mathematical language of calculus.
 
 
 <!--end_excerpt-->
@@ -36,7 +34,7 @@ This course provides the foundation for exploring other topics in advanced mathe
 
 |  | Learning Outcome      | Textbook Section |      Lectures|                                                        
 | ---| ----------------------------         | ------ | ------------------------------------------------------------ |
-{% for objective in site.data.Math_115A_Learning_Objectives -%}
+{% for objective in site.data.Math_101_Learning_Objectives -%}
   | {{ objective.number }} | <b>{{ objective.name }}</b>. {{ objective.description }} | {{ objective.textbook }} | {{ objective.lectures }} |
 {% endfor %}
 
@@ -47,7 +45,7 @@ This course provides the foundation for exploring other topics in advanced mathe
 
 The goals of the course are that you: 
 
-* Acquire an understanding of the properties of abstract vector spaces, and develop the ability to prove (or find counterexamples) to mathematical statements.
+* learn how to use the tools of calculus (differentiation and integration) to describe and model the real world.
 * Develop the reasoning and questioning skills needed to explore these (mathematical) topics and apply them to real-life situations.
 * Develop the collaboration and communication skills needed to convey your (mathematical) ideas.
 
@@ -55,10 +53,10 @@ Below you will find the explicit learning objectives associated to each of these
 </div>
 
 
-## Linear Algebra Objectives (LA)
+## Calculus I Objectives (CI)
 <div class="standoutlist" markdown="1">
 <ol>
-{% for objective in site.data.Math_115A_Learning_Objectives %}
+{% for objective in site.data.Math_101_Learning_Objectives %}
   <li> <b>{{ objective.name }}</b>. {{ objective.description }}
   </li>
 {% endfor %}

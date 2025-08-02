@@ -1,0 +1,55 @@
+- number: CI1
+  textbook: 2.2-2.3, 2.5
+  lectures: 1-6
+  name: Limits and continuity
+  description: Evaluate limits algebraically, graphically, and/or numerically.  Geometrically interpret limits and continuity. Determine if a function is continuous at a point or over an interval. Describe and interpret real-world functions in terms of continuity.  Apply the Intermediate Value Theorem.
+
+- number: CI2
+  textbook: 2.7-2.8
+  lectures: 7-10
+  name: Defining the derivative
+  description: Use the limit definition to compute derivatives.  Geometrically interpret the derivative. Describe and interpret real-world scenarios using derivatives.
+
+- number: CI3
+  textbook: 3.1, 3.3, 3.10
+  lectures: 11-14
+  name: Applications of the derivative
+  description: Describe and interpret higher derivatives. Compute various derivatives of common functions.  Estimate functions using linear approximation. 
+
+- number: CI4
+  textbook: 3.2, 3.4-3.6
+  lectures: 15-21
+  name: Calculating derivatives
+  description: Identify and apply various derivative rules, including the chain rule.  Compute derivatives using implicit differentiation.  Combine multiple derivative rules. Apply the inverse function theorem.
+
+- number: CI5
+  textbook: 2.6, 4.2-4.4
+  lectures: 22-26
+  name: Understanding functions via calculus
+  description: Use the Extreme Value Theorem to identify and classify local extrema. Sketch the shape of a function using its first two derivatives.  Describe asymptotic behavior of functions.  Evaluate limits at infinity and resolve indeterminate forms.  State and apply L'Hôpital's rule when appropriate.
+
+
+- number: CI6
+  textbook: 3.9, 4.1, 4.7
+  lectures: 27-30
+  name: Optimization and related rates
+  description: Describe and solve real-world problems using optimization.  Describe and interpret real-world scenarios using related rates.
+  
+- number: CI7
+  textbook: 5.1-5.2, 5.4
+  lectures: 31-34
+  name: Defining the integral
+  description: Approximate the area under a curve using Riemann sums.  Describe the relationship between limits and definite integrals.  Compute integrals using anti-derivatives.   Describe and interpret real-world scenarios using integrals.
+
+- number: CI8
+  textbook: 4.9, 5.3
+  lectures: 35-37
+  name: The fundamental theorem of calculus
+  description: Describe the relationship between derivatives and integrals.  Apply the fundamental theorem of calculus to evaluate integrals. Compare and connect various interpretations of the integral.
+
+  
+- number: CI9
+  textbook: 6.1-6.3
+  lectures: 38-41
+  name: Applications of integrals
+  description: Construct and evaluate integrals that represent real-world concepts, including area, volume, work, cost, mass density, etc.
