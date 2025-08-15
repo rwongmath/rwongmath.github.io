@@ -21,6 +21,8 @@ toc_icon: "chalkboard-teacher"
 
 Teaching and communicating mathematics is an important part of my mathematical identity, and I value the impact that I have as an educator. It is for this reason that I am committed to *inclusive and equitable teaching* that *affirms and empowers* students.
 
+I am an [MAA Project NExT](https://maa.org/maa-project-next/) Fellow (Green '23 cohort).
+
 My **[Teaching Statement](/assets/Richard_Wong_Teaching_Statement.pdf)** can be found here (last updated {{ update.teaching }}).
 
 My full **Teaching Portfolio** (which contains student evaluations, teaching materials, and sample syllabi) is available upon request. Here are some [sample teaching materials](/teaching/materials).  

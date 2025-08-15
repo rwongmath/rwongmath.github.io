@@ -33,7 +33,7 @@
   textbook: 11.4-11.7
   lectures: 23-29
   name: Series tests
-  description: Identify and apply the appropriate test to determine convergence or divergence of a given series, including the comparison test, alternating series test, and ratio test. Compare the difference between convergence, absolute convergence, and conditional convergence.
+  description: Identify and apply the appropriate test to determine convergence or divergence of a given series, including the comparison test, alternating series test, and ratio test. Compare the difference between convergence, absolute convergence, and conditional convergence. Determine precise error bounds in estimating a series.
   
 - number: CII7
   textbook: 9.1, 11.8-11.11, 17.4
