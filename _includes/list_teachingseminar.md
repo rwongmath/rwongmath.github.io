@@ -1,3 +1,4 @@
+0. [Course Coordination: Getting Started](/assets/slides/Course_Coordination_CIME_Redux_2025.pdf).  I gave a flash talk for the [Critical Issues in Mathematics Education (CIME) Redux workshop](https://www.tpsemath.org/projectember) in September 2025.
 0. [Midweek Math Training: Supplemental Instruction to Support Exam Performance](/assets/slides/MMT_Mathfest_2025.pdf).  I presented on the Midweek Math Training program at Rice for the 2025 MAA Mathfest.
 0. [Driving Change, Year One: Redesigning Calc I and II](/assets/materials/2025_HHMI_Driving_Change_Mathfest_poster.pdf).  I presented a poster on Year 1 of the HHMI Driving Change efforts to redesign calculus at Rice for the 2025 MAA Mathfest.
 0. [In-class Learning Assistants](/assets/slides/Learning_Assistants_25LC.pdf). I gave a presentation on in-class Learning Assistants for the HHMI Learning Community in April 2025.
