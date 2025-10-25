@@ -25,9 +25,9 @@ I have engaged in outreach efforts at multiple levels to help others overcome th
 
 # Efforts
 
-## HHMI Driving Change Initiative
+## HHMI Success in STEM Initiative
 
-At Rice, I am a member of the HHMI Driving Change initiative.  Our goal is to redesign Calculus I and II in an accessible way that is inclusive and equitable for all students.
+At Rice, I am a member of the HHMI Success in STEM initiative.  Our goal is to redesign Calculus I and II in an accessible way that is inclusive and equitable for all students.
 
 [José Pastrana](https://sites.google.com/view/jpastrana) and I presented [a poster](/assets/materials/2025_HHMI_Driving_Change_Mathfest_poster.pdf) on Year 1 of our efforts at the 2025 Mathfest.
 
