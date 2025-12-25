@@ -26,15 +26,19 @@ I use he/him pronouns.
 In general, if you're not sure how to address your instructor, you should ask them! However, "Professor X" or "Dr. X" are typically safe choices, and they help mitigate [gender bias in academia](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6048538/pdf/pnas.201805284.pdf).
 </div>
 
-## What resources are available to me at UCLA?
+## What resources are available to me at Rice?
 <div class="standout" markdown="1">
-If you need support, you should always feel free to ask me in-person, or via e-mail!
+If you need support, you should always feel free to reach out to me in-person, or via e-mail!
 
-Beyond my (and the TA) office hours, here are a few other resources at UCLA:
+Beyond my (and the TA) office hours, here are a few other resources at Rice:
 
-* The math department runs open office hours for lower division courses at the [Student Math Center](https://ww3.math.ucla.edu/student-math-center/).
-* The [Academic Advancement Program](https://www.aap.ucla.edu/about-aap/becoming-an-aap-member/) provides an array of academic services to support students from groups historically underserved in higher education.
-* UCLA has a multitude of other groups, resources, and services available to support your academic success, your social belonging, your physical and mental health, and your overall well-being. You can explore [these resources here](https://docs.google.com/document/d/1K086I03xtvgumRBio1sA8pVfpeb-w-r4TPMvbcsJ0tw/edit).
+* The math department runs **Midweek Math Training**, which offers dedicated exam practice for MATH 101 and MATH 102.
+* The math department provides [a bank of exams for lower division courses from previous semesters](https://mathweb.rice.edu/exam-help) for your practice.
+* The [Office of Academic Support for Undergraduate Students (OASUS)](https://oasus.rice.edu/) offers [Drop-In Study](https://oasus.rice.edu/students/drop-in) and [Peer-Assisted Learning (PAL) Study Groups](https://oasus.rice.edu/students/pal), as well as other resources.
+* Rice as a multitude of other groups, resources, and services available to support your academic success, your social belonging, your physical and mental health, and your overall well-being. You can explore [these resources here](https://docs.google.com/spreadsheets/d/14kvozYUheCTkH-QqxSWfO8OMQrILdgr7cW3wF2ePQJs/edit?gid=1352693617#gid=1352693617). Resources of note include
+	* [The Office of Student Success Initiatives](https://success.rice.edu/)
+	* [The Office of Academic Advising](https://oaa.rice.edu/)
+	* Your residential college's resources!
 </div>
 
 
@@ -53,22 +57,13 @@ For studying for exams, my generic advice is the following:
 0. During exams, **demonstrate what you know**.  That is, think about and write down the relevant tools you have to solve the problem!
 </div>
 
-## What is a "Challenge Problem Report"?
-<div class="standout" markdown="1">
-
-Challenge Problem Reports are technical writing assignments, where you will apply mathematics to more challenging (real world) problems. 
-
-These challenge reports are designed to both help you develop both your mathematical reasoning and your communication skills. Accordingly, you will be graded on both the *correctness* of the mathematics, as well as how you *explain* your mathematical ideas.
-
-These assignments are also designed to simiulate how mathematicians think about and do mathematics.  In other words, they are an opportunity for you to demonstrate your understanding and mastery of the material on something other than a timed exam.
-
-They are inspired by the "Challenge Problem Sets" that I completed as an undergraduate in Math 291 at Rutgers University (taught by Eric Carlen).
-</div>
 
 ## What are "Social Office Hours"?
 
 <div class="standout" markdown="1">
 They are a way for you to get to know me, your classmates and peers at UCLA, and professional mathematicians!
+
+As a faculty associate at [McMurtry College](https://mcmurtry.rice.edu/), I will typically have lunch at West Servery on Thursdays from 12-1pm. If you see me there, feel free to sit down and chat!
 
 Once or twice a quarter, I will invite guest mathematicians to attend special office hours, where they can share details about their journey through mathematics, why they chose to pursue math, and to answer any questions that you have for them.
 
@@ -84,7 +79,7 @@ Once or twice a quarter, I will invite guest mathematicians to attend special of
 <div class="standout" markdown="1">
 If I have taught, mentored, or worked with you, I am always happy to provide support for you and your goals! 
 
-However, in order for me to write a *strong and effective* letter of recommendation, the following things should be true:
+However, in order for me to write a *strong* and *effective* letter of recommendation, the following things should be true:
 
 * You have given me at least **two weeks of notice** before the relevant deadline(s).
 	* I may still be able to write a letter with less notice, but I may also decline due to insufficient time.
@@ -97,7 +92,7 @@ In your request, you should also send:
 * **The deadline** and other details about what you are applying for (the program/scholarship/application website suffices)
 * Your application materials (CV/resume, cover letter, etc.). Rough drafts are fine! 
 
-If I don't think I am properly equipped to write a *strong and effective* letter for you, I will let you know.  This is not necessarily a reflection of you or your abilities - a vaguely positive letter might be detrimental to your application, especially for competetitive programs!
+If I don't think I am properly equipped to write a *strong* and *effective* letter for you, I will let you know.  This is not necessarily a reflection of you or your abilities - a vaguely positive letter might be detrimental to your application, especially for competetitive programs!
 </div>
 
 ## What is math research like?
@@ -126,12 +121,13 @@ Math research is quite different from other types of research in STEM!  Typicall
 
 However, here are some typical ways to get involved:
 
-* The math department runs the [Directed Reading Program](https://www.math.ucla.edu/~drp/) every quarter.  The DRP is a program that pairs undergraduate students with graduate student mentors to undertake independent projects in mathematics. 
+* The math department runs the [Directed Reading Program](https://mathweb.rice.edu/directed-reading-program) every quarter.  The DRP is a program that pairs undergraduate students with graduate student mentors to undertake independent projects in mathematics. 
 * [Research Experience for Undergraduates](https://sites.google.com/view/mathreu) (REUs) are summer research programs.  The application deadlines are typically in the preceding January.
 
+The [Undergraduate Math Research Showcase](https://docs.google.com/document/d/1OIXZH3t8LY63CGN68VTi18tdTC-FrUVz1f__hRhYY74/edit?usp=sharing) (held every Fall semester) is a great opportunity to learn about the math research done by Rice undergraduates.
 
-Further opportunities can be found on the [UCLA math department page](https://ww3.math.ucla.edu/opportunities/).
 </div>
+
 ## Can I become a mathematician?
 
 <div class="standout" markdown="1">
@@ -144,4 +140,33 @@ In my opinion, the answer is **yes**!  Although each person will have their own 
 
 
 One collection of mathematician's journeys can be found in [Living Proof](https://www.maa.org/press/ebooks/living-proof-stories-of-resilience-along-the-mathematical-journey-2).
+</div>
+
+<hr>
+
+# Archived FAQ
+
+
+## What resources are available to me at UCLA?
+<div class="standout" markdown="1">
+If you need support, you should always feel free to ask me in-person, or via e-mail!
+
+Beyond my (and the TA) office hours, here are a few other resources at UCLA:
+
+* The math department runs open office hours for lower division courses at the [Student Math Center](https://ww3.math.ucla.edu/student-math-center/).
+* The [Academic Advancement Program](https://www.aap.ucla.edu/about-aap/becoming-an-aap-member/) provides an array of academic services to support students from groups historically underserved in higher education.
+* UCLA has a multitude of other groups, resources, and services available to support your academic success, your social belonging, your physical and mental health, and your overall well-being. You can explore [these resources here](https://docs.google.com/document/d/1K086I03xtvgumRBio1sA8pVfpeb-w-r4TPMvbcsJ0tw/edit).
+</div>
+
+
+## What is a "Challenge Problem Report"?
+<div class="standout" markdown="1">
+
+Challenge Problem Reports are technical writing assignments, where you will apply mathematics to more challenging (real world) problems. 
+
+These challenge reports are designed to both help you develop both your mathematical reasoning and your communication skills. Accordingly, you will be graded on both the *correctness* of the mathematics, as well as how you *explain* your mathematical ideas.
+
+These assignments are also designed to simiulate how mathematicians think about and do mathematics.  In other words, they are an opportunity for you to demonstrate your understanding and mastery of the material on something other than a timed exam.
+
+They are inspired by the "Challenge Problem Sets" that I completed as an undergraduate in Math 291 at Rutgers University (taught by Eric Carlen).
 </div>
