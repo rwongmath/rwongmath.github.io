@@ -38,6 +38,7 @@ Beyond my (and the TA) office hours, here are a few other resources at Rice:
 * Rice as a multitude of other groups, resources, and services available to support your academic success, your social belonging, your physical and mental health, and your overall well-being. You can explore [these resources here](https://docs.google.com/spreadsheets/d/14kvozYUheCTkH-QqxSWfO8OMQrILdgr7cW3wF2ePQJs/edit?gid=1352693617#gid=1352693617). Resources of note include
 	* [The Office of Student Success Initiatives](https://success.rice.edu/)
 	* [The Office of Academic Advising](https://oaa.rice.edu/)
+	* [Rice Access & Opportunity Portal](https://aop.rice.edu/)
 	* Your residential college's resources!
 </div>
 
@@ -61,11 +62,11 @@ For studying for exams, my generic advice is the following:
 ## What are "Social Office Hours"?
 
 <div class="standout" markdown="1">
-They are a way for you to get to know me, your classmates and peers at UCLA, and professional mathematicians!
+They are a way for you to get to know me, your classmates and peers at Rice, and professional mathematicians!
 
 As a faculty associate at [McMurtry College](https://mcmurtry.rice.edu/), I will typically have lunch at West Servery on Thursdays from 12-1pm. If you see me there, feel free to sit down and chat!
 
-Once or twice a quarter, I will invite guest mathematicians to attend special office hours, where they can share details about their journey through mathematics, why they chose to pursue math, and to answer any questions that you have for them.
+Once or twice a semester, I will invite guest mathematicians to attend special office hours, where they can share details about their journey through mathematics, why they chose to pursue math, and to answer any questions that you have for them.
 
 [Here is a list of previous guests that have attended](/teaching/socialhours).
 </div>

@@ -1,0 +1,130 @@
+\DocumentMetadata{
+  tagging=on,
+  tagging-setup={math/setup=mathml-SE,math/alt/use} 
+}
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd,bm}
+\usepackage{lastpage}
+\usepackage{enumerate,multicol}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+% \usepgfplotslibrary{external}
+% \tikzexternalize
+\usetikzlibrary{calc,angles,quotes,arrows,decorations.markings}
+
+\definecolor{UTorange}{RGB}{207, 83, 0}
+\definecolor{UCLAblue}{RGB}{39, 116, 174} 
+\definecolor{UCLAdark}{RGB}{0, 59, 92}
+\definecolor{UCLAlight}{RGB}{218, 235, 254}
+\definecolor{UCLAgold}{RGB}{255, 209, 0}
+\hypersetup{colorlinks,breaklinks,linkcolor=UCLAblue,urlcolor=UCLAdark,anchorcolor=UCLAblue,citecolor=black}
+ 
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\N}{\mathbb{N}}
+
+\newcommand{\inv}{^{-1}}
+
+\newcommand{\ds}{\displaystyle}
+\newcommand{\dydx}{\frac{dy}{dx}}
+\newcommand{\dxdy}{\frac{dx}{dy}}
+\newcommand{\dsint}{\displaystyle\int}
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{xca}[theorem]{Exercise}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+% Edit these as appropriate
+\newcommand\course{Math 102}
+\newcommand\hwnumber{1}                  % <-- homework number
+\newcommand\name{netid19823}           % <-- NetID of person #1
+\newcommand\NetIDb{netid12038}           % <-- NetID of person #2 (Comment this line out for problem sets)
+
+\pagestyle{fancyplain}
+\headheight 35pt
+\lhead{\textbf{\Large \course}}
+\chead{\textbf{\Large Review}}
+\rhead{\textbf{\Large Jan 14, 2025}}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\headsep 1.5em
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%
+%accessibility/tagging
+\hypersetup{
+pdftitle={Math 102 Mad Minute Integration},
+pdfauthor={Richard Wong},pdfdisplaydoctitle%
+}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\textbf{Name:} \underline{\hspace{2.2in}} \hfill \textbf{Net ID:} \underline{\hspace{2in}}
+
+\end{center}
+
+
+\begin{center}
+    \fbox{You can submit this worksheet to Gradescope within 24 hours for 1 participation point.}
+\end{center}
+\subsection*{``Mad Minute" integration}
+
+\noindent Antidifferentiate as many of the following functions as you can in two minutes. You may, for the purposes of this assignment, omit the added constant, $C$. 
+
+\begin{center}
+
+\tagpdfsetup{table/header-rows={1}}
+\begin{tabularx}{\textwidth}{|c|X|}
+  \hline \textbf{Function} & \textbf{Antiderivative} \\
+\hline
+\hline & \\ 
+ $\sin(x)$  & \\ \hline
+   \hline & \\ $   e^x$ & \\ \hline 
+   \hline &\\$   x^3$ & \\ \hline 
+   \hline &\\$   x^{-1}$ & \\ \hline 
+   \hline &\\ $  (1+x^2)^{-1} $ & \\ \hline \hline &\\ $ \sec^2(x)$ & \\ \hline \hline &\\
+  $ 2^x$ & \\ \hline \hline &\\
+  $ e$ & \\ \hline \hline & \\
+  $ \sec(x)\tan(x)$ & \\ \hline \hline &\\
+  $ (1-x^2)^{-1/2}$ & \\ \hline \hline &\\
+  $ \csc^2(x)$ & \\ \hline \hline &\\
+  $ x(2+x)$ & \\ \hline \hline &\\
+  $ (x-2)^{-1}$ & \\ \hline \hline & \\
+  $ \csc(x)\cot(x)$ & \\ \hline 
+\end{tabularx}
+\end{center}
+
+
+
+
+\end{document}

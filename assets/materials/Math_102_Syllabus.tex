@@ -1,0 +1,738 @@
+% Don't touch this %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\DocumentMetadata{
+  tagging=on,
+  tagging-setup={math/setup=mathml-SE,math/alt/use} 
+}
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in,headheight=3ex,headsep=3ex]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+% \usepackage[shortlabels]{enumitem}
+%\usepackage{titlesec}
+\usepackage{makecell}
+\usepackage{nameref}
+\usepackage{adjustbox}
+
+\usepackage{tabularx,booktabs}
+
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Inputs
+
+\newcommand{\course}{Math 102}
+\newcommand{\courseandtitle}{Math 102: Single Variable Calculus II}
+\newcommand{\semester}{Spring 2026}
+\newcommand{\coursewebsite}[1]{\href{https://canvas.rice.edu/courses/85598}{#1}}
+\newcommand{\lecturetime}{1-1:50pm}
+\newcommand{\lecturenumber}{Section 5}
+
+
+\newcommand{\secondday}{Tuesday, Jan 13}
+
+\newcommand{\firstmidterm}{Feb 17}
+\newcommand{\firstmidtermday}{Tuesday, Feb 17}
+\newcommand{\secondmidterm}{Mar 31}
+\newcommand{\secondmidtermday}{Tuesday, Mar 31}
+\newcommand{\examtime}{7-9PM}
+\newcommand{\finaldate}{\href{https://registrar.rice.edu/students/final-exams}{TBD}}
+\newcommand{\finalday}{\href{https://registrar.rice.edu/students/final-exams}{TBD}}
+\newcommand{\finaltime}{\href{https://registrar.rice.edu/students/final-exams}{TBD}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setcounter{secnumdepth}{0}
+% Modify Course title, , quarter here %%%%%%%%
+
+\title{\courseandtitle \\ \semester,  \lecturenumber}
+\author{}
+\date{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Don't touch this %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[sc]{mathpazo}
+\linespread{1.05} % Palatino needs more leading (space between lines)
+\usepackage[T1]{fontenc}
+\usepackage[mmddyyyy]{datetime}% http://ctan.org/pkg/datetime
+\usepackage{advdate}% http://ctan.org/pkg/advdate
+\newdateformat{syldate}{\twodigit{\THEMONTH}/\twodigit{\THEDAY}}
+\newsavebox{\MONDAY}\savebox{\MONDAY}{Mon}% Mon
+\newcommand{\week}[1]{%
+%  \cleardate{mydate}% Clear date
+% \newdate{mydate}{\the\day}{\the\month}{\the\year}% Store date
+  \paragraph*{\kern-2ex\quad #1, \syldate{\today} - \AdvanceDate[4]\syldate{\today}:}% Set heading  \quad #1
+%  \setbox1=\hbox{\shortdayofweekname{\getdateday{mydate}}{\getdatemonth{mydate}}{\getdateyear{mydate}}}%
+  \ifdim\wd1=\wd\MONDAY
+    \AdvanceDate[7]
+  \else
+    \AdvanceDate[7]
+  \fi%
+}
+\usepackage{setspace}
+\usepackage{multicol}
+\usepackage{indentfirst}
+\usepackage{fancyhdr,lastpage}
+\usepackage{url}
+\pagestyle{fancy}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{amsmath}
+\usepackage{layout}
+
+\lhead{}
+\chead{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Modify header here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\rhead{\footnotesize% 
+\course, 
+\semester%,  
+%\lecturenumber
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Don't touch this %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lfoot{}
+\cfoot{\small \thepage/\pageref*{LastPage}}
+\rfoot{}
+
+\usepackage{array, xcolor}
+\usepackage{color,hyperref}
+\definecolor{UTorange}{RGB}{207, 83, 0}
+\definecolor{UCLAblue}{RGB}{39, 116, 174} 
+\definecolor{UCLAdark}{RGB}{0, 59, 92}
+\definecolor{UCLAlight}{RGB}{218, 235, 254}
+\definecolor{UCLAgold}{RGB}{255, 209, 0}
+\definecolor{RiceBlue}{RGB}{0, 32, 91}
+\definecolor{RiceLight}{RGB}{173, 199, 220}
+\definecolor{RiceGray}{RGB}{124, 126, 127}
+\definecolor{RiceBright}{RGB}{159, 221, 249}
+
+  \definecolor{mepink}{HTML}{AA4499}
+  
+\hypersetup{colorlinks,breaklinks,linkcolor=mepink,urlcolor=mepink,anchorcolor=RiceBlue,citecolor=black}
+
+
+% \titlespacing*{\section}
+% {0pt}{1.2ex plus .2ex minus .2ex}{1ex plus .2ex}
+% \titlespacing*{\subsection}
+% {0pt}{1ex plus .2ex minus .2ex}{1ex plus .2ex}
+
+%\titleformat{\subsection}{}{\thesubsection}{1em}{\large\itshape}
+
+\begin{document}
+\vspace{-6em}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%
+%accessibility/tagging
+\hypersetup{
+pdftitle={\courseandtitle \semester Syllabus},
+pdfauthor={Richard Wong},pdfdisplaydoctitle%
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Modify information %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-6em}
+\noindent\rule{\textwidth}{1pt}
+
+\begin{center}
+\begin{minipage}[t]{\textwidth}
+\begin{center}
+\tagpdfsetup{table/tagging=false}
+\begin{tabular}{llcll}
+\textbf{Instructor:} & \href{https://rwongmath.github.io/}{Richard Wong} (He/Him)  &  & \textbf{Time: } & MWF \lecturetime \\
+\textbf{Email:} &  \href{mailto:richardwong@rice.edu}{richardwong@rice.edu} &  & \textbf{Place:} &  OES 130\\
+\textbf{Office:} & HBH 324B &  & \textbf{Canvas:} & \coursewebsite{Website here}. \\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\textbf{Content Office Hours:} W 1:30-2:30pm; Th 2:30-3:30pm; F 2-3pm; or by appointment
+\end{center}
+\end{minipage}    
+\end{center}
+
+
+\noindent\rule{\textwidth}{1pt}
+
+
+\begin{center}
+    \textit{``It seems to me that the poet has only to perceive that which others do not perceive, to look deeper than others look. And the mathematician must do the same thing."} --- \href{https://en.wikipedia.org/wiki/Sofya_Kovalevskaya}{Sofya Kovalevskaya}
+\end{center}
+
+\vspace{-.5em}
+
+\tableofcontents
+
+
+\noindent\rule{\textwidth}{1pt}
+
+
+\begin{center}
+    The information in this syllabus is subject to change. Any changes will be announced on \coursewebsite{Canvas}.
+\end{center}
+
+
+
+% First Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+
+
+\section{Course Description}
+What tools do we have to calculate an integral like $\displaystyle \int_0^1 xe^{-x^2} \ dx$ or $\displaystyle\int_0^1 e^{-x^2} \ dx$?
+
+\vspace{.5em}
+
+\emph{When your calculator tells you that the value of $\displaystyle \int_0^1 e^{-x^2} \ dx \approx 0.746824$, how do you know it's correct?} How accurate is your calculator?   Is it possible for an infinite region to have finite area?  Can we calculate the area of a fractal?
+
+You've previously seen that calculus is an important and powerful tool that allows us to describe the physical world around us.  In Math 102, we will push the notion of integration to its utmost limits.  In this class, we will build our toolbox for integration; we will study the behavior of the infinite, and we will learn how to quantify how accurate our approximations are.
+
+
+In this course, you will develop the critical thinking and questioning skills needed to answer these complex questions.  Moreover, you will become fluent in precisely communicating your ideas through the mathematical language of calculus.
+
+
+
+
+% Second Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Prerequisites}% Corequisites: ... .
+Math 101 or an equivalent course (e.g. Math 111 \& 112, Math 105, or Calc I). That is, a working knowledge of differentiation and basics of integration, including the Fundamental Theorem of Calculus. 
+
+You cannot register for Math 102 if you have credit for Math 106.
+
+\subsubsection*{Drop-back policy:}  
+
+At Rice, we believe that you should take the most advanced math class you are prepared for. However, if you feel like you aren't adequately prepared for Math 102 and need additional support, then I encourage you to reach out to me to discuss your resources and options.
+
+One possible option to note is that you can switch enrollment to Math 101 any time before the Friday of the 7th week of class. This is a registration policy specific to the math department.  
+
+
+\subsection{Course Materials}
+
+\begin{itemize}
+    \item \textbf{Textbook:} \textit{Calculus: Early Transcendentals, the 9th edition}, by Stewart. An e-book version of this text is provided with your purchase of WebAssign.
+
+    \item \textit{WebAssign} is an online homework platform, and is \emph{\underline{\textbf{required to be purchased}}} in order to complete the online homework for this course. You will receive an email to enroll in WebAssign by \secondday.
+
+    If you plan on taking further math and physics courses at Rice (such as Math 212), I recommend that you purchase the 4 year access to WebAssign from the \href{https://www.bkstr.com/riceuniversitystore/shop/textbooks-and-course-materials}{Rice University Bookstore} for \$120.  If you need financial assistance in purchasing this textbook, please contact the \href{https://aop.rice.edu/making-textbook-aop-request}{Rice Access and Opportunity Portal}.  
+    
+    \item \textit{Canvas} is our learning management system.  All important course-related announcements will be posted on Canvas.  Your grades will also be posted on Canvas, and you can use it to track your progress in the course.
+    
+    Other course materials, including recorded class lectures and lecture slides, will be made privately available on Canvas. Please note that these are intended to supplement lecture, and that \emph{these materials are not a suitable replacement for attending live lectures.}
+    
+    \item \textit{Piazza} is a tool for asking and answering questions, as well as working collaboratively. Piazza is integrated with Canvas.
+
+    \item \textit{Gradescope} is a grading platform where you will upload your written homework.  You will also receive detailed feedback on your written HW, quizzes, and exams through Gradescope. Gradescope is integrated with Canvas.
+
+
+\end{itemize}
+
+
+\subsection{Learning Goals}
+
+\begin{center}
+    \textit{"In mathematics, the art of asking questions is more valuable than solving problems."} --- \href{https://en.wikipedia.org/wiki/Georg_Cantor}{Georg Cantor}
+\end{center}
+
+The goals of the course are that you: 
+\begin{enumerate}[label-format={\arabic*.}]
+    \item build your toolbox for integration; study the behavior of the infinite; and learn how to quantify the accuracy of your approximations;
+    \item develop the reasoning and questioning skills needed to explore these mathematical topics;
+    \item develop the collaboration and communication skills needed to convey your mathematical ideas.
+\end{enumerate}
+
+Furthermore, this course is designed to show you that mathematics is neither a ``spectator sport", nor a solitary endeavor.  Mathematics is both a creative and a collaborative process, and \textit{everyone}, especially you, can do mathematics and be a part of the mathematical community.  My hope is that by the end of the semester, you will be proud of the mathematics that you have done in this course.
+
+\begin{center}
+    \textit{``I don't solve quadratic equations to help me with my daily life, but I do use mathematical thinking to help me understand arguments and to empathize with other people.  And so pure maths helps me with the entire human world."} --- \href{http://eugeniacheng.com/}{Eugenia Cheng}
+\end{center}
+
+\newpage
+
+\subsection{Lecture Schedule}
+
+
+\renewcommand{\arraystretch}{1.15}
+\tagpdfsetup{table/header-rows={1}}
+\noindent\begin{tabularx}{\textwidth}{lXll}
+
+\# & \textbf{Learning Objectives:} & \textbf{Textbook:} & \textbf{Lectures:} \\
+
+\textbf{CII-1}: &\textbf{Techniques of integration.}  
+Describe and interpret real-world scenarios as integration problems. Apply various techniques to compute integrals, including $u$-substitution, partial fraction decomposition, and integration by parts.  Compare and contrast different methods of integration.
+& \makecell[tl]{\textit{5.5,} \\ \textit{7.1, 7.4}} & 1-4 \\
+
+\textbf{CII-2}:& \textbf{Polar coordinates.} 
+Visualize and interpret polar coordinates and polar functions.  Convert between Euclidean and polar coordinates to compute areas. Calculate trig integrals.
+& \makecell[tl]{\textit{7.2} \\ \textit{10.3-10.4}} &  5-8 \\
+
+\textbf{CII-3}:& \textbf{Parametric equations.}
+Describe curves that are not graphs of functions. Visualize and interpret parametric equations. Convert between functions and parametric equations to compute arclengths and areas.  Calculate integrals using trig substitution.
+& \makecell[tl]{\textit{7.3} \\ \textit{10.1-10.2}} & 9-13 \\
+
+& \textbf{Midterm 1} & & \textbf{\firstmidterm}  \\
+
+\textbf{CII-4}:& \textbf{Improper integrals.}
+Compare the behavior of functions at infinity. Determine if an integral over an infinite region exists. Evaluate integrals over infinite regions. Determine if a function can be integrated over a discontinuity. Given an improper integral, find an appropriate comparison.
+& \makecell[tl]{\textit{7.8}} & 14-17 \\
+
+
+\textbf{CII-5}:& \textbf{Sequences and series.} 
+Describe the end term behavior of a sequence. Describe what it means for a sequence and/or series to converge. Evaluate and geometrically interpret common series. Describe examples of sequences and series that do not converge.  Describe the relationship between series and integration.
+& \makecell[tl]{\textit{11.1-11.3}} & 18-21 \\
+
+
+\textbf{CII-6}:& \textbf{Series tests.}  
+Identify and apply the appropriate test to determine convergence or divergence of a given series, including the comparison test, alternating series test, and ratio test. Compare the difference between convergence, absolute convergence, and conditional convergence. Determine precise error bounds in estimating a series.
+ & \makecell[tl]{\textit{11.4-11.7}}     & 22-28 \\
+
+
+& \textbf{Midterm 2} & &  \textbf{\secondmidterm}\\
+
+\textbf{CII-7}:& \textbf{Taylor series.}
+Approximate functions (and/or their derivatives/integrals) using power series. Determine precise error bounds when using Taylor approximation.  Use Taylor series to solve differential equations.
+& \makecell[tl]{\textit{11.8-11.11}} & 30-38 \\
+
+\textbf{CII-8}:& \textbf{Complex numbers.}
+Describe and interpret real world scenarios using complex numbers.  Describe a geometric interpretation of the complex numbers.  Explain why Euler's formula $e^{i\pi} + 1 = 0$ holds.
+& \makecell[tl]{Appx. H} &  39-40 \\
+
+& \textbf{Final Exam} & & \textbf{\finaldate} \\
+
+
+\end{tabularx}
+
+
+
+
+
+% Fourth Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\section{Course Structure}
+
+\begin{center}
+    \textit{"The only way to learn mathematics is to do mathematics."} --- \href{https://en.wikipedia.org/wiki/Paul_Halmos}{Paul Halmos}
+\end{center}
+
+This course is offered in an in-person, synchronous format.  Lectures and office hours will be held in person. All exams will be held in person, \emph{\textbf{outside of class}}.
+
+During class, I plan to use a mix of direct teaching (aka traditional lecturing), as well as active and inquiry-based teaching.  Tasks you will be asked to do include: work individually, work in small groups, discuss ideas in small groups, ask questions, and/or present your ideas or solutions to the class.  
+
+\subsection{The Learning Process}
+
+Each assignment in this course plays an important role in the learning process.  
+\begin{enumerate}
+\item \textbf{Pre-class work:} Before coming to class, you should download the lecture slides, and read the relevant chapter or section of the textbook.  You should not expect to understand everything immediately - this is completely normal!  You should bring any questions you have to class (and office hours).
+
+\item \textbf{During class:}  During class, I will explain and motivate the material by providing examples, geometric intuition, and the context of the material.  I will also provide opportunities for you to actively practice the material in small groups.
+
+\item \textbf{Post-class work:} After class, you should review your notes and/or the lecture slides, and complete the assigned homework problems.  If you need more practice, you should attempt the other problems in the textbook until you are comfortable with the material. If you have questions at this stage, you should ask them in office hours, or on Piazza!  
+
+\emph{I highly recommend studying in groups.} Being able to explain concepts or solutions to your peers is a great way to assess your understanding of the material.
+
+
+\item \textbf{Quizzes:}  The in-class quizzes will be low-stakes opportunities for you to simulate a test-like environment and assess your understanding of the material.   There will be a mix of both conceptual and computational problems.
+
+\item \textbf{Exams:}  These are opportunities for you to demonstrate your mastery of the material, and will emphasize critical thinking, rather than memorization of the material.  That is, these assignments will emphasize applying what you've learned to new and unique situations. By this point, you should feel comfortable enough with the material to answer complex questions and/or explain concepts in depth.
+
+\item \textbf{Reflection:}  After any major assignment, it's important to (1) review the feedback on your work, (2) think about what went well, and (3) what changes you need to make (e.g. in your study strategies, your understanding of the material, etc.).  This will help you improve on future assignments!
+
+\end{enumerate}
+
+\newpage
+
+\subsection{Grading Scheme} \label{gradingscheme}
+
+\begin{center}
+    \textit{"You need to have a conversation with yourself about what is important for you, what you actually need to thrive. And to not fall prey to the belief system that the only thing of value is your mathematics."} --- \href{https://www.pamelaeharris.com/}{Pamela Harris}
+\end{center}
+
+
+Your grade will reflect your performance in the course using the \emph{\textbf{better}} of the following two grading schemes. This will happen automatically. 
+
+\begin{center}
+    \begin{minipage}[t]{.95\textwidth}
+\begin{center}
+\tagpdfsetup{table/tagging=div}
+\begin{tabular}{llcll}
+\multicolumn{2}{c}{\underline{\textbf{Scheme 1}}} & \multicolumn{1}{c}{} & \multicolumn{2}{c}{\underline{\textbf{Scheme 2}}}\\
+WebAssign HW & 7.5\%  &  \qquad & WebAssign HW & 7.5\%\\
+Written HW & 7.5\%  &  \qquad & Written HW & 7.5\%\\
+Quizzes & 10\%  &  \qquad & Quizzes & 10\%\\
+Participation & 10\%  &  \qquad    &Participation & 10\%\\
+Best Midterm grade & 19\%  & \qquad    & Best Midterm grade & 19\% \\
+Other Midterm grade & 19\% &   \qquad    & Other Midterm grade & 14\% \\
+Final & 27\%  &   \qquad   & Final & 32\%
+\end{tabular}
+\end{center}
+\end{minipage}
+\end{center}
+
+A letter grade will be assigned to percentages via the following brackets.
+
+\begin{center}
+    \begin{minipage}[t]{.95\textwidth}
+\begin{center}
+ \begin{adjustbox}{center, width=\columnwidth-10pt}
+\renewcommand{\arraystretch}{2}
+\tagpdfsetup{table/tagging=false}
+\begin{tabular}{lclclclc}
+ A & {[}100, 93.333] & A- & (93.333, 90]& B+ & (90, 86.666] & B & (86.666, 83.333] \\ 
+ \hline
+ B- & (83.333, 80] & C+ & (80, 76.666] & C&  (76.666, 73.333] & C-&  (73.333, 70] \\
+ 
+ \hline
+D+ & (70, 66.666]& D & (66.666, 63.333]& D- & (63.333, 60] & F & (60, 0]\\
+\end{tabular}
+\end{adjustbox}
+\end{center}
+\end{minipage}
+\end{center}
+
+I reserve the right to award an A+ for exceptional performance (typically 98\%+). I also reserve the right to adjust the grade cutoffs dependent on overall class scores at the end of the semester. This will only ever make it \textit{easier} to obtain a certain letter grade. 
+
+
+\subsection{Graded Assignments}
+\begin{enumerate}
+\item \textbf{Homework:}  There are two types of homework in this class.
+
+\begin{itemize}
+    \item \textbf{WebAssign Homework} (7.5\% of your grade): Most lectures will have accompanying homework problems posted on WebAssign.  These problems are chosen to help you best understand and practice the material.  
+
+Each WebAssign homework assignment will be graded on accuracy.  This will provide you with immediate feedback on your understanding of the material.  You will be allowed a handful of attempts at each problem.  Your lowest six WebAssign HW scores will be dropped.
+
+\item \textbf{Written Homework} (7.5\% of your grade): There will be additional assigned problems due roughly every week.  For these problems, you must write up and submit full solutions (e.g. explaining all important steps).  These problems will be graded for accuracy. Your lowest two written HW scores will be dropped.
+\end{itemize}
+
+For homework problems, you should work individually \textit{at first}. After you have given the problems a good amount of independent thought, then you are encouraged to collaborate and work together with your Math 102 peers.   You may also ask for hints or suggestions (\textbf{but not solutions}) from other academic resources at Rice (e.g. instructors, peer tutors, other students).  If you work with others on a problem, you must make sure that you can do all of the work for the problem on your own, before submitting your answer.
+
+In addition, \textbf{for the written HW}, you must write and submit your solutions individually, and you should note the names of any collaborators on each problem.
+
+
+\item \textbf{Quizzes} (10\% of your grade): Roughly every week, there will a short ($\leq 12$ minute) quiz given during lecture.  The day of the quiz will be announced in advance.  The problems will cover topics from any past lecture or homework assignment. These quizzes are designed to help you assess your current understanding of the material, and will be graded on accuracy.  Your lowest two quiz grades will be dropped.
+
+
+\end{enumerate}
+
+\begin{center}
+\underline{Following these instructions on collaboration is part of the Rice Honor Code!}
+\end{center}
+
+
+\subsection{Exams}
+There will be two non-cumulative 2-hour midterms, and one cumulative 3-hour final worth a combined  total of 65\% of your grade. \emph{\textbf{All exams are pledged}}. Calculators will not be allowed on exams. 
+
+All exams will be held in person, \emph{\textbf{outside of class hours}}.  The topics covered on the midterms depends on the schedule, and will be announced one week in advance of the midterm.
+
+The dates and times of the midterms are as follows:
+
+\begin{center}
+\begin{minipage}[t]{.95\textwidth}
+\begin{center}
+\tagpdfsetup{table/header-rows={1}}
+\begin{tabular}{llll}
+\textbf{Exam} & \textbf{Date} & \textbf{Time} & \textbf{Location} \\
+Midterm 1 & \firstmidtermday & \examtime & TBD\\
+Midterm 2 & \secondmidtermday & \examtime & TBD\\
+%Final & \finalday & \finalday & TBD
+\end{tabular}
+\end{center}
+\end{minipage}
+\end{center}
+
+\emph{It is okay to ask for an alternate examination time,} e.g. if you have another exam, religious, or personal conflict.  I will do my best to accommodate alternate examination times. If you have a conflict, please let me know ASAP, \textbf{up to two weeks in advance of the exam,} so that I can take care of the logistics.
+
+\emph{If you are sick, or need to quarantine during an exam period, you should not come to the exam.}  You should let me know ASAP, and we will proceed on a case-by-case basis.  
+
+\subsubsection*{Final Exam:}
+
+\href{https://registrar.rice.edu/students/final-exams}{The date for the final exam is not available at this time}. It is the policy of the Mathematics Department that no final may be given early to accommodate student travel plans. If you make travel plans that later turn out to conflict with the scheduled exam, then it is your responsibility to reschedule your travel plans or take a zero on the final.
+
+% \begin{center}
+% \setlength{\tabcolsep}{1em}
+% \renewcommand{\arraystretch}{2}
+% \tagpdfsetup{table/tagging=false}
+% \begin{tabular}{|p{6in}|}
+% \hline
+% {\bf Final exam: } 
+% \\
+% \hline
+% \end{tabular}
+    
+% \end{center}
+
+
+\subsection{Participation}
+
+As noted in the course learning objectives, mathematics is a collaborative process that requires consistent, mindful practice.  To help
+create a community of engaged learners, participation will be worth 10\% of your grade.
+
+Your participation grade will be calculated via \textbf{participation points}.  Each participation point is worth 0.25\% of your grade (up to a maximum of 10\%).  Thus, you need to earn 40 participation points to earn the full participation grade.  \textbf{Additionally, 12 of these participation points must come from \emph{in-class activities}}.  
+
+There will be several ways and modalities to participate in this course, both during lecture, and also outside of lecture.  \emph{I will also be intentional about making sure everyone has an equal opportunity to participate.} Some ways to earn points include:
+
+\vspace{-1em}
+\subsubsection*{In class activities: (\textit{must earn at least 12 points})}
+\begin{itemize}[]
+    \item Submitting in-class worksheets (usually 1 point)
+    \item Answering a math question during class (1 point, once per day)
+    \item Asking a math question during class (1 point, once per day)
+\end{itemize}
+
+\vspace{-2em}
+\subsubsection*{Out of class activities:}
+\begin{itemize}[]
+    \item Completing the weekly review assignment (1 point, once per week).
+    \item Attending my office hours (1 point, once per week)
+    \item Attending other university resources (\hyperlink{subsec:ss}{102 Study Sessions}, \hyperlink{subsec:MMT}{MMT}, or \href{https://oasus.rice.edu/drop-in}{Drop-in study})
+    \item Asking or answering a math question on Piazza (1 point, once per week)
+
+    \vspace{.5em}
+    \textbf{Note:} Contributing to the mathematical discussion (even if not a full answer) counts towards participation. Contributions with no content (e.g. "Your question is very interesting!”) or disingenuous contributions will not receive points.
+\end{itemize}
+
+
+\subsubsection*{Reflection activities:}
+
+Reflection is also an important step in the learning process.  As such, there will also be out-of-class participation opportunities in this course for you to reflect on your learning strategies and look for ways to improve, including:
+
+\begin{enumerate}[]
+    \item \textbf{Pre-Midterm 1 Survey:} This survey assesses your preparation and study strategies prior to Midterm 1.  (1 point)
+
+    \item \textbf{Post-Midterm 1 Survey:} This survey allows you to reflect on Midterm 1, and helps you reflect on how you will prepare for future exams.  (1 point)
+    
+    \item \textbf{End of Semester Reflection:} \label{endofqr} This is an \textbf{optional} writing assignment to be submitted before the final exam. It is designed for you to reflect on what you have learned and achieved in this course. (3 points)
+
+\end{enumerate}
+
+\subsubsection*{Extra credit:} 
+
+Once you have earned full participation credit, your participation points can earn extra credit in the following way:
+
+Every increment of 10 participation points you earn above 40 will add 0.5\% to your final course grade (capped at 1\% extra credit).  So if you finished the course with 60 participation points, you would earn 1\% extra credit.  However, if you finished the course with 59 participation points, you would only earn 0.5\% extra credit.
+
+I will do my best to keep your participation tally updated monthly on Canvas. If, over time, you believe
+your total is off, let me know by email. I expect that everyone should be able to earn the full participation grade.
+
+
+% Fourth Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Policies}
+
+\subsection{Student Conduct / Classroom Environment Policy}
+
+\begin{center}
+    \textit{Everyone can have joyful, meaningful, and empowering mathematical experiences.} --- \href{http://fardila.com/}{Federico Ardila}
+\end{center}
+
+I strongly believe that EVERYONE is capable of success in this course and in mathematics in general, regardless of any systemic barriers that might exist due to race, gender, socio-economic background, or cultural identity. 
+
+In fact, I hope to show you all that mathematics can be inspiring, affirming, and even empowering.  I strive to create positive and inclusive learning environments where all students feel welcome to ask questions and to voice their ideas. In particular,
+\begin{itemize}[]
+    \item \textbf{You belong in this classroom.} Discrimination or harassment of any kind will not be tolerated. Please let me know immediately if you ever feel uncomfortable in class. %You may report an incident to the Office of Diversity, Equity and Inclusion \href{https://dei.rice.edu/report-bias}{here}.
+    \item \textbf{You deserve to be addressed in the manner that reflects who you are.} If you are comfortable with it, you are welcome to share your pronouns and/or preferred name at any time. Conversely, please address your classmates according to their expressed preferences.
+    \item \textbf{You deserve to fully and equitably participate in our learning environment.} During class, I encourage you to interrupt me with questions at any time! Please let me know as soon as possible if you need any classroom accommodations.
+    \item \textbf{Be comfortable with asking questions and making mistakes.} Doing so is an essential part of the learning process, and no question is too basic or stupid.  I ask you all to respect and be patient with your peers when they are confused.
+\end{itemize}
+
+While studying mathematics can often be challenging intellectually, it can be challenging \textit{emotionally} as well. In my experience, having a strong support network of teachers, mentors, colleagues, peers, and friends that can support you is the best way to help you persevere and succeed in mathematics. To help build an empathetic support network in class, I ask that you all:
+\begin{itemize}[]
+    \item Reach out to people you do not know and actively build new connections;
+    \item Respect and understand that different people may bring differences in background, expertise, and interest;
+    \item Assume the best in others and give them the benefit of the doubt.  However, understand that behavior can have an adverse impact on others, even in the absence of malicious intent.
+     \item Do not interrupt your peers; demean them or their ideas; or challenge their competence or mathematical abilities.
+\end{itemize}
+
+\subsubsection*{Statement of Conduct:}
+
+The Department of Mathematics supports an inclusive learning environment 
+where diversity and individual differences are understood, respected, 
+and recognized as a source of strength.   Racism, discrimination, 
+harassment, and bullying will not be tolerated.  We expect all 
+participants in mathematics courses (students and faculty alike) to 
+treat each other with courtesy and respect, and to adhere to the
+    \href{https://mathweb.rice.edu/department-statement-collegiality-respect-and-sensitivity}{Mathematics department standards of collegiality,  respect, and  sensitivity} as well as the \href{https://sjp.rice.edu/code-of-student-conduct}{Rice Student Code of Conduct}. 
+
+If you think you have experienced or witnessed unprofessional 
+or antagonistic behavior, then the matter should be
+brought to the attention of the instructor and/or department chair.   
+The Ombudsperson is also available as an intermediate, informal 
+option, and contacting them will not necessarily trigger a formal 
+inquiry.  See the above website for details on how to contact the Ombudsperson.
+
+
+\subsection*{Honor Code}
+
+At Rice, the Honor Code is a reflection of our commitment to maintaining standards of academic integrity.  As a student and a member of the Rice community, you are responsible for the integrity of your education - that is, that you are evaluated on your own merits.
+
+\begin{itemize}
+    \item \textbf{WebAssign and Written Homework:} You should work individually \emph{at first}. After you have given the problems a good amount of independent thought, then you are encouraged to collaborate and work together with your Math 102 peers.  You may also ask for hints or suggestions (\textbf{but not solutions}) from other academic resources at Rice (e.g. instructors, peer tutors, other students). 
+
+However, \textbf{you are not allowed to look up solutions in any written form;} in particular, you are not allowed to look up solutions to problems in a solution manual or other online sources, or to seek help from AI systems.  
+    \item \textbf{Quizzes and Exams:}  These assignments are pledged - no collaboration is allowed, and you may only use the resources provided on the exam itself.  You may \href{https://mathweb.rice.edu/exam-help}{use previous exams for practice}, but please note that the exam questions and/or topics for your course can and will differ from previous courses.
+\end{itemize}
+
+If you have any questions about the Honor Code for this class, or are wondering if a certain course of action is acceptable, please send me an email.
+
+
+\subsection{Attendance Policy}
+
+Attendance at our MWF lectures is strongly recommended, and is required in the sense that assignments that affect your grade will be given in lecture.  If you happen to miss a lecture for whatever reason, see the late/missed assignment policy.  
+
+You are responsible for all the material and announcements covered in class, and all required information will be made available through lectures (which will be recorded and posted on Canvas).  However, consistently attending lecture is the best way to ensure that you do not fall behind in class.
+
+There is a Zoom link for lectures, which will allow for you to join the meeting virtually if you are unable to attend lecture, but note that this is not a suitable replacement for attending live lectures. In particular, I will not be paying attention to the chat, nor will I be able to hear any virtual questions.
+
+\subsection{Late/Missed Assignment Policy} Sometimes we have bad days, bad weeks, or bad semesters. This is especially true in light of the COVID-19 pandemic, and this crisis, as well as any other unexpected, unfortunate personal crisis, should not unduly affect your grade.  
+
+\begin{itemize}
+
+    \item \textbf{WebAssign Homework:} After the posted deadline, you will be able to see detailed, step-by-step solutions on how to solve the assigned problems.  Therefore, \emph{no late submissions will be accepted}.  However, your lowest six WebAssign HW scores will be dropped.
+    
+        \item \textbf{Written Homework:} There is a 48-hour grace period for submitting written homework to Gradescope after the posted deadline.  There is no penalty for using this grace period, and you do not need to notify me of its use.  \emph{No late homework will be accepted after this 48-hour late deadline}, and your lowest two written HW scores will be dropped.
+
+ 
+    \item \textbf{Quizzes:} My goal is to grade the quizzes within 24 hours, so that you have detailed feedback on your understanding of the material.  Therefore, \emph{it is not possible to make up a missed quiz}. However, your lowest two quiz grades will be dropped.
+%     \item For \textbf{challenge problems,} I am using the policy of ``time banks” to accommodate any unexpected issues.  You may use this policy one of two ways (please choose, and let me know):
+% \begin{itemize}
+%     \item You may have one 48-hour grace period for one submitted assignment, OR
+%     \item You may have two 24-hour extensions for two different submitted assignments. 
+% \end{itemize}
+% You do not have to justify your use of this policy, nor do you need to use it at all. You will not be penalized for using the time bank policy.
+\end{itemize}
+
+
+If you are having consistent problems keeping to the schedule, or if you find yourself struggling with unexpected personal events, I encourage you to reach out and email me (\href{mailto:richardwong@rice.edu}{richardwong@rice.edu}) as soon as possible.   I can also give case-by-case flexibility depending on the severity of the issues.
+
+
+
+
+\subsection*{Regrading Policy}
+
+Occasionally, I or the graders may make a mistake while grading assignments or exams.  If there has been a clerical error (e.g. there was an error in calculating the points you earned, or an error in recording the grades on Canvas), you can contact me immediately to fix this error.
+
+For all other grading issues, you should submit a Request for Regrade Form to Canvas anytime within the regrading window for the assignment.  Unless announced otherwise, this window lasts for one week, beginning 24 hours after the assignment or exam has been returned.
+
+Please note that the regrading policy is intended to fix serious errors in grading, \emph{not} to argue for extra points.  Your grade will not necessarily be improved by the regrade.
+
+\subsection*{Calculator Policy}
+
+You are welcome to use calculators or \href{https://www.wolframalpha.com/}{Wolfram Alpha} (a free online calculator) on homework unless indicated otherwise.  However, no calculators will be allowed on any of the exams or quizzes in this course, so you should practice solving problems without a calculator.  
+
+You are expected to be able to perform basic arithmetic operations with fractions and decimals by hand, and to know common values of trigonometric and log functions.
+
+\subsection{Contact / Email policy}
+
+If you have a course-related question, you are strongly encouraged to post in the course Piazza before emailing me.   Others might be able to answer your question, and others might find the answer to your question helpful as well.
+
+Otherwise, the best way to contact me is via email (\href{mailto:richardwong@rice.edu}{richardwong@rice.edu}).  To ensure that I see your email, the subject line should include the phrase "\textbf{\course - \lecturenumber}".   To ensure I know who you are, the message or signature should include \emph{\textbf{your name}} and \emph{\textbf{Rice ID number}}.  
+
+I will do my best to respond to your email in a timely manner (typically within a few hours).  However, if you send an email during the evening or the weekend, do not expect to hear a response until the next weekday morning.  
+
+
+% Add a figure %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{figure*}
+%\includegraphics[width=1.3\textwidth,angle=90]{Concept_map_315.pdf}
+%\end{figure*}
+
+% Fifth Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Resources}
+
+\subsection{Office Hours}
+
+Office hours are dedicated times for you to ask me any and all questions that you have (about course content, mathematics, careers, life at Rice, or life in general). \emph{You are strongly encouraged to come to office hours}, and you are welcome to schedule an appointment if the posted hours don't fit your schedule, or if you'd like to have a private conversation.   
+
+You might find the course content office hours most helpful if you have specific questions prepared, but I also welcome you to come and listen to your peers' questions.
+
+In addition to traditional course content office hours, I will also hold \emph{\href{https://rwongmath.github.io/teaching/socialhours}{social office hours}} for you to get to know me, your classmates, your peers at Rice, and (occasionally) other mathematicians.
+
+\subsection{Calculus Resources}
+
+
+\subsubsection*{Math 101 \& 102 Study Sessions:} \hypertarget{subsec:ss}
+These study sessions are times where you are invited to work with your peers on Math 102 content! A Math 102 instructor (sometimes me!) will be present to help.\vspace{.5em}
+
+\tagpdfsetup{table/tagging=false}
+\begin{tabular}{ll}
+{\bf Time:}  MWF 4:00-5:00 PM  &	{\bf Location:} HBH 021  
+\end{tabular}
+
+\subsubsection*{Midweek Math Training:} \hypertarget{subsec:MMT}
+Written exams are worth a lot in this course! Taking an exam is a kind of performance, and just like any performance, it’s important to practice. The Midweek Math Trainings offer (in addition to snacks and drinks!) practice designed to closely mimic a real exam day. 
+
+Each week, in a one-hour session, you’ll attempt questions designed to test recent content at a typical exam difficulty level. Afterwards, you'll work with your peers and undergraduate tutors to discuss the problems and learn together. \vspace{.5em}
+
+\tagpdfsetup{table/tagging=false}
+\begin{tabular}{ll}
+{\bf Time:} WTh 6:15-7:15 PM &	{\bf Location:} HRG 129
+\end{tabular}
+
+\subsubsection*{Drop-in Peer Tutoring and PAL Study Groups}
+
+For support with this course or other academic challenges, or if you're seeking a supportive learning community, check out the \href{https://oasus.rice.edu/}{Office of Academic Support for Undergraduate Students (OASUS)}. OASUS provides both \href{https://oasus.rice.edu/students/drop-in}{Drop-In Study} and \href{https://oasus.rice.edu/students/pal}{Peer-Assisted Learning (PAL) Study Groups} as resources for this course and many others.
+
+You can find the schedules for \href{https://oasus.rice.edu/students/drop-in}{Drop-In Study} and \href{https://oasus.rice.edu/students/pal}{PAL Study Group} sessions on their respective websites. To stay up-to-date on OASUS Program schedules and events, add the \href{https://calendar.google.com/calendar/u/0?cid=Y19iNzQxY2JlNTIxZGZkNDdlMjUyMTU3OTEyMTFjZTM2OTdjN2RiOTRiMjFiYzQ5ODUwYzkwYWMzNDM0NjQxY2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20}{OASUS Program Calendar} and join the \href{https://groupme.com/join_group/102443495/mAlKvwQm}{Drop-in \& PAL GroupMe}. For any questions, you can reach out to \href{mailto:oasus@rice.edu}{oasus@rice.edu}.
+
+
+\subsubsection*{Previous Exams}
+
+The math department provides \href{https://mathweb.rice.edu/exam-help}{a bank of exams from previous courses} for your practice, but please note that the exam questions (and possibly even exam topics) for your course can and will differ from previous courses.
+
+% \subsection{Feedback}
+
+% I encourage your feedback at any time throughout the quarter about things that are helping you learn, or things that aren't helping. Please let me or your TA know if there are ways that we can improve the course to better support your learning.
+
+% \subsection{Online Learning Resources}
+% This course is offered in a hybrid format.  If you are looking for ideas and strategies to help you feel more comfortable participating in the online portion of our class, please explore this \href{https://docs.google.com/document/d/18LwdsauAuVlrzf1LqrWpgJcxf4qrIHZE94bvzprTnMo/edit?usp=sharing}{CEILS Guide to Remote Learning}.
+
+\subsection{Services for Students with Disabilities}
+I am committed to creating an accessible and inclusive learning environment. Please let me know if you experience any barriers to learning so that I can work with you to ensure you have equal opportunity to participate fully in this course. 
+
+The Americans with Disabilities Act requires that all qualified persons should have equal opportunity and access to education regardless of the presence of any disabling conditions. Any student with a documented disability who needs academic accommodations should 1) visit the \href{https://drc.rice.edu/}{Disabilities Resource Center (DRC)} to make sure that the required documentation is on file and 2) speak to the instructor as soon as possible. The DRC is located in Allen Center 111, and can also be reached at \href{mailto:adarice@rice.edu}{adarice@rice.edu}.
+
+\subsection{Mental Health Resources}
+
+\emph{Your wellbeing and mental health is important.} If you are having trouble completing your coursework, please reach out to the \href{https://wellbeing.rice.edu/}{Wellbeing and Counseling Center}. They provide cost-free mental health services to help you manage personal challenges that threaten your personal or academic well-being. 
+
+If you believe you are experiencing unusual amounts of stress, sadness, or anxiety, the Student Wellbeing Office or the Rice Counseling Center may be able to assist you. The Wellbeing and Counseling Center is located in the Gibbs Wellness Center and can be reached at 713-348-3311 (available 24/7).
+
+
+\subsection{Further Resources}
+
+\begin{itemize}[]
+    \item The \href{https://aop.rice.edu/}{Access and Opportunity portal website} has financial support for
+    \begin{itemize}[]
+        \item financial support of academic, social, and professional opportunities,
+        \item participation in the life of their Residential College as well as at Rice,
+        \item \emph{emergency funds} for students actively in crisis (e.g. impending eviction or emergency surgery)
+    \end{itemize}
+    \item Rice University supports your college experience by providing a variety of resources:
+    \begin{itemize}[]
+        \item \href{https://aop.rice.edu/other-sources-support}{Other access and opportunity resources} at Rice.
+        \item \href{https://success.rice.edu/ssi-advising/student-success-resources}{A list of campus resources} from the Office of Student Success Initiatives.
+    \end{itemize}
+
+\end{itemize}
+
+
+
+\subsection*{Title IX}
+
+At Rice University, unlawful discrimination in any form, including sexual misconduct, is prohibited under Rice Policy on Harassment and Sexual Harassment (Policy 830) and the Student Code of Conduct.
+
+Please be aware that all employees of Rice University are “mandatory reporters,” which means that if you tell me about a situation involving sexual harassment, sexual assault, dating violence, domestic violence, or stalking, I must share that information with the Title IX Coordinator.
+
+Although I have to make that notification, you will control how your case will be handled, including whether or not you wish to pursue a formal complaint. Our goal is to make sure you are aware of the range of options available to you and have access to the resources you need.
+
+To report sexual harassment, please contact the Title IX Coordinator at \href{mailto:titleix@rice.edu}{titleix@rice.edu}. To explore supportive measures and other resources that are available to you, please visit the Office if Interpersonal Misconduct Prevention and Support at \href{https://safe.rice.edu}{safe.rice.edu}.
+
+\end{document}
