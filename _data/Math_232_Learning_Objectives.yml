@@ -1,0 +1,46 @@
+- number: MV1
+  lectures: 1-8
+  name: Analysis in $\mathbb{R}^n$
+  description: Sketch and geometrically interpret vector-valued and multivariable functions. Compute limits of sequences, limits of multivariable functions; determine if multivariable functions are continuous. 
+
+- number: MV2
+  lectures: 9-12
+  name: The multivariable derivative
+  description: Geometrically interpret the derivative of a multivariable function. Compute and use partial derivatives and the Jacobian matrix.  Find equations for tangent planes to surfaces and linear approximations of functions at a given point. State and use the chain rule for derivatives.
+
+- number: MV3
+  lectures: 13-14
+  name: Local Optimization
+  description: Compute directional derivatives and the gradient.  Interpret level curves of multivariable functions. Find and classify local extrema of a multivariable function.
+
+- number: MV4
+  lectures: 15-16
+  name: Constrained optimization
+  description: Determine if subsets of $\mathbb{R}^n$ are open, closed, bounded, or compact.  Use the method of Lagrange multipliers to find local minima and local maxima of functions subject to constraints. Find and classify global extrema on compact domains. Compute and use the Hessian matrix. 
+
+- number: MV5
+  lectures: 17-21
+  name: Integration over regions in $\mathbb{R}^n$
+  description: Use Darboux sums to define and estimate integrals. Set up and evaluate integrals of continuous multivariable functions over regions in $\mathbb{R}^n$ using iterated integrals.  Use Fubini's theorem to evaluate integrals.  Use integrals in applications to physics and real-world scenarios.  Determine whether or not a function is integrable.  Generate examples of integrable, non-continuous functions.
+
+
+- number: MV6
+  lectures: 22-25
+  name: Change of variables
+  description: Use the polar, cylindrical, and spherical coordinate systems to set up and evaluate iterated integrals. Set up and use the change of variables formula to evaluate double and triple integrals. Compute and geometrically interpret the Jacobian.
+  
+- number: MV7
+  lectures: 26-30
+  name: Arclength and Surface Integrals
+  description: Parametrize curves in $\mathbb{R}^n$ and surfaces in $\mathbb{R}^3$.  Calculate line integrals of scalar functions (including arclength). Use the parametrization of a surface to find the tangent plane to the surface.  Compute surface integrals of scalar functions (including surface area).
+
+- number: MV8
+  lectures: 31-35
+  name: Vector fields; Flow and Flux integrals
+  description: Sketch and visualize vector fields.  Calculate line integrals of vector fields. Use the fundamental theorem of line integrals to evaluate the line integral of a conservative vector field. Calculate flux integrals of vector fields over curves and surfaces. 
+  
+- number: MV9
+  lectures: 36-40
+  name: Green's theorem, Stokes' theorem, and the divergence theorem
+  description: Geometrically interpret Green's theorem, Stokes' theorem, and the divergence theorem.  Identify the appropriate theorem to use in order compute a particular line integral  or surface integral of a vector field.
+

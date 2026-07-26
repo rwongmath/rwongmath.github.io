@@ -1,8 +1,8 @@
 ---
-school: UCLA
-number: Math 32AH
-coursetitle: Calculus of Several Variables, Honors
-title: Math 32AH&#58; Calculus of Several Variables, Honors
+school: Rice
+number: Math 232
+coursetitle: Honors Multivariable Calculus
+title: Math 232&#58; Honors Multivariable Calculus
 
 layout: single
 
@@ -10,25 +10,18 @@ toc: true
 toc_label: "Content"
 toc_icon: "atlas"
 
-21Fall: true
-22Fall: true
-23Fall: true
+26Spring: true
 ---
-
 
 {% capture syllabus %}assets/syllabus/{{ page.number | split: " " | first }}_{{ page.number | split: " " | last }}_Syllabus.pdf{% endcapture %}
 
 You can find the [course syllabus here]({{ syllabus | relative_url }}).
 
-You can view the **[course lecture notes](https://github.com/rwongmath/HonorsMultivariableCalculus/blob/main/HonorsMultivariableCalculus.pdf)** for 32AH here.
-{: .notice--warning}
+**How can we describe the physical world mathematically?** What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a derivative of a multivariable function? What does it mean to integrate a multivariable function?  What regions can we integrate over?  How can we generalize the Fundamental Theorem of Calculus?
 
+Multivariable calculus is the mathematical language that allows us to describe the geometry of the physical world around us, such as the motion of planets in orbit, the path of steepest ascent through the hills of Los Angeles, or how to calculate the amount of electricity flowing along a curve or through a surface. In this course, you will develop the reasoning and questioning skills needed to explore these geometric concepts and apply them to real-life situations.  Moreover, you will become fluent in communicating your ideas through the mathematical language of multivariable calculus.
 
-**How can we describe the physical world mathematically?** What changes, and what stays the same when we move from single variable calculus to multivariable calculus?  What does it mean to take a derivative of a multivariable function?
-
-Multivariable calculus is the mathematical language that allows us to describe the geometry of the physical world around us, such as the motion of planets in orbit, the behavior of electromagnetic forces, or the path of steepest ascent through the hills of Los Angeles. In this course, you will develop the reasoning and questioning skills needed to explore these geometric concepts and apply them to real-life situations.  Moreover, you will become fluent in communicating your ideas through the mathematical language of multivariable calculus.
-
-The course 32AH differs from 32A in that it covers the topics of multivariable calculus with more mathematical rigor.  Moreover, it builds the foundation for more advanced topics, such as linear algebra, real analysis, and differential geometry. 
+The course MATH 232 differs from MATH 212 in that it covers the topics of multivariable calculus with more mathematical rigor (e.g. proofs).  That is, in addition to learning how to perform standard computations, we will also learn how to grapple with and prove statements about complex mathematical concepts.  Moreover, this course builds the foundation for more advanced topics, such as real analysis, complex analysis, and differential geometry. This course differs from MATH 222 in that we will not discuss general manifolds (only curves and surfaces), nor differential forms.
 
 This course is recommended for students interested in learning about advanced mathematics. 
 
@@ -38,30 +31,31 @@ This course is recommended for students interested in learning about advanced ma
 
 # Schedule
 
-|  | Learning Outcome      | Textbook Section |      Lectures|                                                        
-| ---| ----------------------------         | ------ | ------------------------------------------------------------ |
-{% for objective in site.data.Math_32AH_Learning_Objectives -%}
-  | {{ objective.number }} | <b>{{ objective.name }}</b>. {{ objective.description }} | {{ objective.textbook }} | {{ objective.lectures }} |
+|  | Learning Outcome      |      Lectures|                                                        
+| ---| ----------------------------         |  ------------------------------------------------------------ |
+{% for objective in site.data.Math_232_Learning_Objectives -%}
+  | {{ objective.number }} | <b>{{ objective.name }}</b>. {{ objective.description }} | {{ objective.lectures }} |
 {% endfor %}
 
 <hr>
-# Learning Objectives: 
 
+# Learning Objectives: 
 <div class="standout" markdown="1">
 
 The goals of the course are that you: 
 
-* Acquire an understanding of the geometry of Euclidean space, linear transformations, and the differential calculus of multivariable functions.
+* learn how to use the tools of calculus (differentiation and integration) to describe and model the real world.
 * Develop the reasoning and questioning skills needed to explore these (mathematical) topics and apply them to real-life situations.
 * Develop the collaboration and communication skills needed to convey your (mathematical) ideas.
 
 Below you will find the explicit learning objectives associated to each of these goals.
 </div>
 
+
 ## Multivariable Calculus Objectives (MV)
 <div class="standoutlist" markdown="1">
 <ol>
-{% for objective in site.data.Math_32AH_Learning_Objectives %}
+{% for objective in site.data.Math_232_Learning_Objectives %}
   <li> <b>{{ objective.name }}</b>. {{ objective.description }}
   </li>
 {% endfor %}
@@ -69,7 +63,6 @@ Below you will find the explicit learning objectives associated to each of these
 </div>
 
 ## Mathematical Reasoning Objectives (MR)
-
 <div class="standoutlist" markdown="1">
 0. **Reason abstractly and quantitatively.**  Use mathematics to model real-world situations and to interpret and solve problems.  Make appropriate assumptions and approximations to simplify a complicated situation. Draw pictures or study examples to provide insight.  Attend to the meaning of quantities instead of just computing them. Consider the units involved.
 0. **Make sense of problems and persevere in solving them.**  Understand what a problem is asking for. Analyze the givens, constraints, and goals of a problem. Break large/complex problems into smaller/simpler problems. Check answers using alternate methods.
